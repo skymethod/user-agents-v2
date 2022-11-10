@@ -1,0 +1,618 @@
+{
+  "comments": "Look for User-Agent matches in this file order: 'bots', 'apps', 'libraries', 'browsers', and return the first entry matched, processing each entry in order in which they appear in the file.",
+  "bots": [
+    {
+      "name": "AAABot - unknown bot",
+      "pattern": "AAABot",
+      "examples": [
+        "AAABot"
+      ]
+    },
+    {
+      "name": "AhrefsBot",
+      "pattern": "AhrefsBot/",
+      "urls": [
+        "http://ahrefs.com/robot/"
+      ],
+      "examples": [
+        "Mozilla/5.0 (compatible; AhrefsBot/7.0; http://ahrefs.com/robot/)"
+      ]
+    },
+    {
+      "name": "AirableBot",
+      "pattern": "AirableBot-Podcast/",
+      "description": "An aggregator of internet radio and podcasts, for connected devices.",
+      "urls": [
+        "https//www.airablenow.com"
+      ],
+      "examples": [
+        "AirableBot-Podcast/1.0 (+https//www.airablenow.com)"
+      ]
+    },
+    {
+      "name": "Alexa Flash Briefing cache",
+      "pattern": "^AmazonNewsContentService",
+      "description": "A service which downloads, caches and normalises audio for the Flash Briefing service on Alexa-enabled devices",
+      "svg": "amazon.svg",
+      "urls": [
+        "https://developer.amazon.com/docs/flashbriefing/flash-briefing-skill-api-feed-reference.html#performance-requirements"
+      ],
+      "comments": "Stats are available within the Alexa skills dashboard."
+    },
+    {
+      "name": "Amazon Music Podcasts Bot",
+      "pattern": "^Amazon Music Podcast",
+      "description": "A music and podcasts streaming app",
+      "svg": "amazon.svg",
+      "comments": "Backend ingestion service"
+    },
+    {
+      "name": "Anchor Importer",
+      "pattern": "AnchorImport",
+      "description": "Anchor's tool for importing podcasts",
+      "comments": "This useragent is used during a user importing a podcast to the Anchor platform",
+      "examples": [
+        "AnchorImport/1.0"
+      ]
+    },
+    {
+      "name": "Apple Podcasts (Watch)",
+      "pattern": "^atc/",
+      "comments": "Verified (via stamping the audio URL with the RSS useragent) as being sourced from Apple Podcasts; and accordingly this is marked as a bot since these downloads are duplicated with the phone.",
+      "examples": [
+        "atc/1.0",
+        "atc/1.0 watchOS/6.2 model/Watch3,3 hwp/t8004 build/17T529 (6; dt:155)",
+        "atc/1.0 watchOS/6.2.8 model/Watch2,3 hwp/t8002 build/17U63 (6; dt:133)",
+        "atc/1.0 watchOS/6.2.8 model/Watch3,3 hwp/t8004 build/17U63 (6; dt:155)",
+        "atc/1.0 watchOS/6.2.8 model/Watch4,2 hwp/t8006 build/17U63 (6; dt:191)",
+        "atc/1.0 watchOS/7.0.2 model/Watch5,10 hwp/t8006 build/18R402 (6; dt:233)",
+        "atc/1.0 watchOS/7.0.2 model/Watch5,11 hwp/t8006 build/18R402 (6; dt:234)",
+        "atc/1.0 watchOS/7.1 model/Watch4,2 hwp/t8006 build/18R590 (6; dt:191)",
+        "atc/1.0 watchOS/7.1 model/Watch4,3 hwp/t8006 build/18R590 (6; dt:192)",
+        "atc/1.0 watchOS/7.1 model/Watch4,4 hwp/t8006 build/18R590 (6; dt:193)",
+        "atc/1.0 watchOS/7.1 model/Watch5,1 hwp/t8006 build/18R590 (6; dt:201)",
+        "atc/1.0 watchOS/7.1 model/Watch5,3 hwp/t8006 build/18R590 (6; dt:202)",
+        "atc/1.0 watchOS/7.1 model/Watch5,4 hwp/t8006 build/18R590 (6; dt:202)"
+      ]
+    },
+    {
+      "name": "Apple Podcasts automated checks",
+      "pattern": "(iTMS|itunesstored)"
+    },
+    {
+      "name": "Applebot",
+      "pattern": "^Applebot/",
+      "description": "Applebot is the web crawler for Apple. Products like Siri and Spotlight Suggestions use Applebot.",
+      "urls": [
+        "http://www.apple.com/go/applebot"
+      ]
+    },
+    {
+      "name": "Archive.org",
+      "pattern": "archive.org_bot",
+      "description": "The Internet Archive is a nonprofit digital library that preserves web data and makes it available for research purposes through the Wayback Machine.",
+      "urls": [
+        "https://archive.org/details/archive.org_bot"
+      ],
+      "examples": [
+        "Mozilla/5.0 (compatible; archive.org_bot http://archive.org/details/archive.org_bot)"
+      ]
+    },
+    {
+      "name": "AudioWave feed parser",
+      "pattern": "^AudioWaveBot/1.0",
+      "urls": [
+        "https://audiowave.io"
+      ],
+      "examples": [
+        "AudioWaveBot/1.0"
+      ]
+    },
+    {
+      "name": "Babbar",
+      "pattern": "Barkrowler/",
+      "urls": [
+        "https://beta.babbar.tech/crawler"
+      ]
+    },
+    {
+      "name": "British Library",
+      "pattern": "^bl.uk_ldfc_bot",
+      "description": "British Library's legal deposit web crawler",
+      "urls": [
+        "http://www.bl.uk/aboutus/legaldeposit/websites/websites/faqswebmaster/index.html"
+      ],
+      "examples": [
+        "bl.uk_ldfc_bot/3.4.0-20200518 ( http://www.bl.uk/aboutus/legaldeposit/websites/websites/faqswebmaster/index.html)"
+      ]
+    },
+    {
+      "name": "Castopod",
+      "pattern": "Castopod/1.0",
+      "examples": [
+        "Castopod/1.0"
+      ]
+    },
+    {
+      "name": "Chartable",
+      "pattern": "^Trackable/",
+      "urls": [
+        "https://chartable.com/"
+      ]
+    },
+    {
+      "name": "Clark-Crawler, unknown",
+      "pattern": "^clark-crawler2"
+    },
+    {
+      "name": "Critical Mention",
+      "pattern": "^Podcast-CriticalMention/",
+      "description": "Critical Mention is a business intelligence company, monitoring podcasts on the web for their clients",
+      "examples": [
+        "Podcast-CriticalMention/1.0"
+      ]
+    },
+    {
+      "name": "curl",
+      "pattern": "^curl"
+    },
+    {
+      "name": "DataforSEO",
+      "pattern": "DataForSeoBot/",
+      "description": "Working on the biggest available backlink database on the web that every single member of the community, including you, can use and benefit from.",
+      "urls": [
+        "https://dataforseo.com/dataforseo-bot"
+      ],
+      "examples": [
+        "Mozilla/5.0 (compatible; DataForSeoBot/1.0; +https://dataforseo.com/dataforseo-bot)"
+      ]
+    },
+    {
+      "name": "Datagnion Bot",
+      "pattern": "^datagnionbot"
+    },
+    {
+      "name": "Deezer Podcasters",
+      "pattern": "^Deezer Podcasters/1.0"
+    },
+    {
+      "name": "dorada",
+      "pattern": "support@dorada\\.co\\.uk"
+    },
+    {
+      "name": "DotBot",
+      "pattern": "DotBot",
+      "examples": [
+        "Mozilla/5.0 (compatible; DotBot/1.1; http://www.opensiteexplorer.org/dotbot, help@moz.com)",
+        "Mozilla/5.0 (compatible; DotBot/1.2; https://opensiteexplorer.org/dotbot; help@moz.com)"
+      ]
+    },
+    {
+      "name": "Downcast Bot",
+      "pattern": "downcast feed consumer/",
+      "examples": [
+        "downcast feed consumer/0.0.175; (mode=dev; id=u2NgjBSPM6; downcast.fm)"
+      ]
+    },
+    {
+      "name": "F-Secure Riddler",
+      "pattern": "^Riddler ",
+      "description": "an online research project which investigates algorithms for mapping the topology of the Internet",
+      "examples": [
+        "Riddler (http://riddler.io/about)"
+      ]
+    },
+    {
+      "name": "Facebook Bot",
+      "pattern": "(FacebookBot|facebookexternalhit/|podcastbot)",
+      "urls": [
+        "https://www.facebook.com/externalhit_uatext.php"
+      ],
+      "comments": "The podcastbot UA appears to be part of Facebook Podcasts onboarding",
+      "examples": [
+        "facebookexternalhit/1.1 ( http://www.facebook.com/externalhit_uatext.php)",
+        "podcastbot"
+      ]
+    },
+    {
+      "name": "Fyyd",
+      "pattern": "^fyyd-poll"
+    },
+    {
+      "name": "Goodpods Bot",
+      "pattern": "Goodpods/d+.d+",
+      "description": "The social podcasting app",
+      "svg": "goodpods.svg",
+      "urls": [
+        "https://www.goodpods.com/"
+      ],
+      "comments": "RSS scraper / podcast verifier. Contact hello at goodpods dot com.",
+      "examples": [
+        "Goodpods/2.2"
+      ]
+    },
+    {
+      "name": "Google AdsBot",
+      "pattern": "AdsBot-Google",
+      "urls": [
+        "http://www.google.com/adsbot.html"
+      ]
+    },
+    {
+      "name": "Google Podcasts Manager",
+      "pattern": "Google-Podcast"
+    },
+    {
+      "name": "Googlebot",
+      "pattern": "(Googlebot/|Googlebot-Video/|Googlebot-Image/)",
+      "description": "Google's search bots",
+      "urls": [
+        "http://www.google.com/bot.html"
+      ],
+      "examples": [
+        "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; http://www.google.com/bot.html)",
+        "Googlebot-Image/1.0"
+      ]
+    },
+    {
+      "name": "Gumball",
+      "pattern": "^Gumball",
+      "description": "An attribution service (known as Gumshoe) from the Gumball network",
+      "examples": [
+        "Gumball.fm Analytics Prefix Checker"
+      ]
+    },
+    {
+      "name": "Headliner",
+      "pattern": "Headliner/",
+      "comments": "A tool that takes audio to reformat it for video platforms",
+      "examples": [
+        "Headliner/1.0.0 +https://headliner.app"
+      ]
+    },
+    {
+      "name": "Internet Archive",
+      "pattern": "Archive-It;",
+      "description": "Archive-It is a web archiving service that allows institutions to build and preserve collections of born digital content saving this content for future generations.",
+      "urls": [
+        "https://archive-it.org/files/site-owners-special.html"
+      ],
+      "examples": [
+        "Mozilla/5.0 (compatible; special_archiver; Archive-It; http://archive-it.org/files/site-owners-special.html)"
+      ]
+    },
+    {
+      "name": "l'Institut national de l'audiovisuel",
+      "pattern": "INA dlweb",
+      "urls": [
+        "https://institut.ina.fr/collecte-du-depot-legal-web"
+      ],
+      "comments": "Institut National de l'Audiovisuel is a repository of all French radio and television audiovisual archives."
+    },
+    {
+      "name": "libwww-perl",
+      "pattern": "^libwww-perl"
+    },
+    {
+      "name": "Livelap Crawler",
+      "pattern": "LivelapBot"
+    },
+    {
+      "name": "LTX71",
+      "pattern": "^ltx71 ",
+      "description": "We continuously scan the internet for security research purposes.",
+      "urls": [
+        "http://ltx71.com/"
+      ],
+      "examples": [
+        "ltx71 - (http://ltx71.com/)"
+      ]
+    },
+    {
+      "name": "MauiBot",
+      "pattern": "^MauiBot",
+      "examples": [
+        "MauiBot (crawler.feedback dc@gmail.com)"
+      ]
+    },
+    {
+      "name": "Microsoft Bingbot",
+      "pattern": "(BingPreview/|adidxbot/|bingbot/)",
+      "urls": [
+        "https://www.bing.com/webmaster/help/which-crawlers-does-bing-use-8c184ec0"
+      ],
+      "examples": [
+        "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534 (KHTML, like Gecko) BingPreview/1.0b"
+      ]
+    },
+    {
+      "name": "MJ12bot",
+      "pattern": ".*MJ12bot",
+      "examples": [
+        "Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)"
+      ]
+    },
+    {
+      "name": "MSN Bot",
+      "pattern": "^msnbot/"
+    },
+    {
+      "name": "Neevabot",
+      "pattern": ".*Neevabot",
+      "urls": [
+        "https://neeva.com/neevabot"
+      ],
+      "examples": [
+        "Mozilla/5.0 (compatible; Neevabot/1.0; https://neeva.com/neevabot)"
+      ]
+    },
+    {
+      "name": "OkDownload",
+      "pattern": "^OkDownload/"
+    },
+    {
+      "name": "Overcast feed parser",
+      "pattern": "^Overcast/1.0 Podcast Sync",
+      "comments": "Marco Arment says: when a new episode is detected, the servers fetch a copy of it to seed these values with an initial set of data to make the privacy screen more accurate.",
+      "examples": [
+        "Overcast/1.0 Podcast Sync"
+      ]
+    },
+    {
+      "name": "Pandora RSS crawler",
+      "pattern": "^PandoraRSSCrawler"
+    },
+    {
+      "name": "PaperLi",
+      "pattern": "PaperLiBot/",
+      "examples": [
+        "Mozilla/5.0 (compatible; PaperLiBot/2.1; https://support.paper.li/entries/20023257-what-is-paper-li)"
+      ]
+    },
+    {
+      "name": "PetalBot",
+      "pattern": "PetalBot",
+      "description": "PetalBot is an automatic program of the Petal search engine.",
+      "urls": [
+        "https://aspiegel.com/petalbot"
+      ],
+      "examples": [
+        "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot; https://aspiegel.com/petalbot)"
+      ]
+    },
+    {
+      "name": "Pingdom",
+      "pattern": "^Pingdom"
+    },
+    {
+      "name": "Podcastindex.org",
+      "pattern": "^Podcastindex.org/",
+      "svg": "podcast-index.svg",
+      "urls": [
+        "https://podcastindex.org/"
+      ],
+      "examples": [
+        "Podcastindex.org/v0.3.3 (Aggrivate)"
+      ]
+    },
+    {
+      "name": "PodCloud",
+      "pattern": "podCloud",
+      "description": "Le podcast, simplement. A French-language web-based podcast player.",
+      "urls": [
+        "https://podcloud.fr"
+      ],
+      "comments": "This useragent is a bot, doing feed updates and downloading media files. It was observed every six hours. User plays will have a standard browser useragent with a referer of https://podcloud.fr/ "
+    },
+    {
+      "name": "Podcorn",
+      "pattern": "Podcorn/",
+      "description": "The leading podcast influencer marketplace. Connecting unique voices to unique brands for native advertising.",
+      "urls": [
+        "https://podcorn.com/"
+      ],
+      "examples": [
+        "Podcorn/1.0"
+      ]
+    },
+    {
+      "name": "PodderBot",
+      "pattern": "PodderBot/",
+      "description": "PodderApp bot",
+      "urls": [
+        "https://www.podderapp.com/"
+      ],
+      "comments": "PodderApp bot for RSS fetching / verification",
+      "examples": [
+        "PodderBot/1.0"
+      ]
+    },
+    {
+      "name": "Podfollow",
+      "pattern": "podfollowbot/",
+      "description": "Podfollow, a service to help link to your podcast",
+      "urls": [
+        "https://podfollow.com"
+      ],
+      "examples": [
+        "Mozilla/5.0 https://podfollow.com/crawling podfollowbot/1.0"
+      ]
+    },
+    {
+      "name": "Podhound",
+      "pattern": "PodhoundBeta",
+      "description": "AI-powered podcast discovery",
+      "urls": [
+        "http://podhound.co"
+      ],
+      "comments": "'It grabs it once to get the audio file length.', says the developer.",
+      "examples": [
+        "PodhoundBeta"
+      ]
+    },
+    {
+      "name": "Podio Bot",
+      "pattern": "^Podio/",
+      "description": "Podcasts + Radio = Podio",
+      "urls": [
+        "https://podio.radio/"
+      ],
+      "comments": "This useragent appears to download and cache audio",
+      "examples": [
+        "Podio/1.0"
+      ]
+    },
+    {
+      "name": "Podnews",
+      "pattern": "PodnewsBot",
+      "description": "Podnews runs a number of bots to read and test RSS and audio files",
+      "urls": [
+        "http://podnews.net"
+      ]
+    },
+    {
+      "name": "Podnods Bot",
+      "pattern": "(podnods-crawler|podnods)",
+      "description": "Podnods is a podcast discovery site. This user agent is for crawling podcast data.",
+      "urls": [
+        "https://podnods.com/about"
+      ]
+    },
+    {
+      "name": "Podverse Feed Parser",
+      "pattern": "^Podverse/Feed Parser",
+      "description": "The Podverse feed parser.",
+      "urls": [
+        "https://podverse.fm"
+      ],
+      "comments": "This service parses publicly-accessible RSS feeds on a timer, then stores parsed data in the Podverse database."
+    },
+    {
+      "name": "python-requests",
+      "pattern": "python-requests"
+    },
+    {
+      "name": "RedCircle",
+      "pattern": "RedCircle",
+      "description": "A platform for podcasts and brands to scale their message.",
+      "urls": [
+        "https://redcircle.com/"
+      ],
+      "examples": [
+        "RedCircle"
+      ]
+    },
+    {
+      "name": "RSS to Telegram",
+      "pattern": "^RSStT",
+      "description": "an RSS to Telegram bot",
+      "urls": [
+        "https://apps.apple.com/be/app/audiowave-podcast-player/id1602776751"
+      ],
+      "examples": [
+        "RSStT/2.2.1 RSS Reader"
+      ]
+    },
+    {
+      "name": "RSSRadio",
+      "pattern": "^RSSRadio "
+    },
+    {
+      "name": "Ruby Mechanize",
+      "pattern": "^Mechanize"
+    },
+    {
+      "name": "SEMrushBot",
+      "pattern": "SemrushBot/",
+      "examples": [
+        "Mozilla/5.0 (compatible; SemrushBot/6~bl; http://www.semrush.com/bot.html)"
+      ]
+    },
+    {
+      "name": "Serendeputy",
+      "pattern": "SerendeputyBot/",
+      "urls": [
+        "https://serendeputy.com/about/serendeputy-bot"
+      ],
+      "examples": [
+        "SerendeputyBot/0.8.6 (http://serendeputy.com/about/serendeputy-bot)"
+      ]
+    },
+    {
+      "name": "Slack Bot",
+      "pattern": "^Slackbot 1.0",
+      "examples": [
+        "Slackbot 1.0 ( https://api.slack.com/robots)"
+      ]
+    },
+    {
+      "name": "SoundOn Bot",
+      "pattern": "^SoundOn/[d.]+s+bot"
+    },
+    {
+      "name": "Spotify cache service",
+      "pattern": "^Spotify/1.0$",
+      "comments": "This useragent, currently simply Spotify/1.0, is used when retrieving the RSS and audio for Spotify's catalogue. It isn't used for passthru.",
+      "examples": [
+        "Spotify/1.0"
+      ]
+    },
+    {
+      "name": "Stitcher Bot",
+      "pattern": "^StitcherBot"
+    },
+    {
+      "name": "Timpi search crawler",
+      "pattern": "Timpibot/",
+      "examples": [
+        "Timpibot/0.8 ( http://www.timpi.io)"
+      ]
+    },
+    {
+      "name": "Trendsmap Resolver",
+      "pattern": "TrendsmapResolver/"
+    },
+    {
+      "name": "Twitterbot",
+      "pattern": "^Twitterbot"
+    },
+    {
+      "name": "Typhoeus",
+      "pattern": "^Typhoeus"
+    },
+    {
+      "name": "Vurbl",
+      "pattern": "VurblBot",
+      "description": "An audio streaming destination",
+      "urls": [
+        "https://vurbl.com/about-us/"
+      ],
+      "examples": [
+        "Mozilla/5.0 https://vurbl.com VurblBot/1.0"
+      ]
+    },
+    {
+      "name": "Wget",
+      "pattern": "Wget"
+    },
+    {
+      "name": "WordPress",
+      "pattern": "^WordPress"
+    },
+    {
+      "name": "YaCy",
+      "pattern": "^yacybot",
+      "description": "Decentralized Web Search",
+      "urls": [
+        "http://yacy.net/bot.html"
+      ],
+      "examples": [
+        "yacybot (/global; amd64 Linux 5.9.8-zen1-1-zen; java 1.8.0_265; Europe/de) http://yacy.net/bot.html"
+      ]
+    },
+    {
+      "name": "YandexBot",
+      "pattern": "YandexBot/"
+    }
+  ]
+}
