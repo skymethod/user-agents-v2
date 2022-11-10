@@ -1,6 +1,7 @@
 {
+  "$schema": "https://raw.githubusercontent.com/skymethod/user-agents-v2/master/schemas/patterns.schema.json",
   "comments": "Look for User-Agent matches in this file order: 'bots', 'apps', 'libraries', 'browsers', and return the first entry matched, processing each entry in order in which they appear in the file. If the match entry is from this file (i.e. not a bot), you can also match the User-Agent header against the 'devices' file to identity device and type.",
-  "apps": [
+  "entries": [
     {
       "name": "Acast",
       "pattern": "^Acast.+([Aa]ndroid|iOS)"
