@@ -3,119 +3,119 @@
   "referrers": [
     {
       "name": "Amazon Music",
-      "pattern": "^https://music.amazon."
+      "pattern": "^https://music\\.amazon\\."
     },
     {
       "name": "Apple Podcasts",
-      "pattern": "^https:\\/\\/(embed\\.)?podcasts\\.apple\\.com"
+      "pattern": "^https://(embed\\.)?podcasts\\.apple\\.com"
     },
     {
       "name": "Audible",
-      "pattern": "^https://www.audible.com/"
+      "pattern": "^https://www\\.audible\\.com/"
     },
     {
       "name": "CastBox",
-      "pattern": "^https://castbox.fm/"
+      "pattern": "^https://castbox\\.fm/"
     },
     {
       "name": "Castro",
-      "pattern": "^https://castro.fm/"
+      "pattern": "^https://castro\\.fm/"
     },
     {
       "name": "Czech Podcasts",
-      "pattern": "^https://ceskepodcasty.cz/"
+      "pattern": "^https://ceskepodcasty\\.cz/"
     },
     {
       "name": "Deezer",
-      "pattern": "^https://www.deezer.com/"
+      "pattern": "^https://www\\.deezer\\.com/"
     },
     {
       "name": "Facebook",
-      "pattern": "^http(s)?://(lm|m|www|l).facebook.com/"
+      "pattern": "^https?://(lm|m|www|l)\\.facebook\\.com/"
     },
     {
       "name": "Gaana",
-      "pattern": "^https://gaana.com/"
+      "pattern": "^https://gaana\\.com/"
     },
     {
-      "name": "goodpods",
-      "pattern": "^https:\\/\\/(www.)?goodpods.com"
+      "name": "Goodpods",
+      "pattern": "^https://(www\\.)?goodpods\\.com"
     },
     {
       "name": "Google Podcasts",
-      "pattern": "^https://podcasts.google.com/"
+      "pattern": "^https://podcasts\\.google\\.com/"
     },
     {
       "name": "Headliner",
-      "pattern": "^https\\:\\/\\/make.headliner.app\\/"
+      "pattern": "^https\\://make\\.headliner\\.app/"
     },
     {
       "name": "iHeartRadio",
-      "pattern": "^https://www.iheart.com/"
+      "pattern": "^https://www\\.iheart\\.com/"
     },
     {
       "name": "Kajabi",
-      "pattern": "kajabi.com(\\/)?$"
+      "pattern": "kajabi\\.com/?$"
     },
     {
       "name": "LinkedIn",
-      "pattern": "^https://www.linkedin.com/"
+      "pattern": "^https://www\\.linkedin\\.com/"
     },
     {
       "name": "Listen Notes",
-      "pattern": "^https://www.listennotes.com/"
+      "pattern": "^https://www\\.listennotes\\.com/"
     },
     {
       "name": "Mixcloud",
-      "pattern": "^https://www.mixcloud.com/"
+      "pattern": "^https://www\\.mixcloud\\.com/"
     },
     {
       "name": "Overcast",
-      "pattern": "^https://overcast.fm/"
+      "pattern": "^https://overcast\\.fm/"
     },
     {
       "name": "Pandora",
-      "pattern": "^https://(\\w*\\.)?pandora.com/"
+      "pattern": "^https://(\\w*\\.)?pandora\\.com/"
     },
     {
       "name": "Parler",
-      "pattern": "^https://(www\\.)?parler.com"
+      "pattern": "^https://(www\\.)?parler\\.com"
     },
     {
       "name": "Player FM",
-      "pattern": "^https://(\\w*\\.)?player.fm/"
+      "pattern": "^https://(\\w*\\.)?player\\.fm/"
     },
     {
       "name": "Pocket Casts",
-      "pattern": "^https://play.pocketcasts.com/"
+      "pattern": "^https://play\\.pocketcasts\\.com/"
     },
     {
       "name": "Podbay",
-      "pattern": "^https://podbay.fm/"
+      "pattern": "^https://podbay\\.fm/"
     },
     {
       "name": "Podbean",
-      "pattern": "^https://www.podbean.com/"
+      "pattern": "^https://www\\.podbean\\.com/"
     },
     {
       "name": "Podcast Addict",
-      "pattern": "^https://(www.)?podcastaddict.com"
+      "pattern": "^https://(www\\.)?podcastaddict\\.com"
     },
     {
       "name": "Podcast Index",
-      "pattern": "^https://podcastindex.org"
+      "pattern": "^https://podcastindex\\.org"
     },
     {
       "name": "Podcast.app",
-      "pattern": "^https://podcast.app/"
+      "pattern": "^https://podcast\\.app/"
     },
     {
       "name": "Podchaser",
-      "pattern": "https://www.podchaser.com/"
+      "pattern": "https://www\\.podchaser\\.com/"
     },
     {
-      "name": "PodFriend",
-      "pattern": "^https://web.podfriend.com/"
+      "name": "Podfriend",
+      "pattern": "^https://web\\.podfriend\\.com/"
     },
     {
       "name": "Podplay",
@@ -123,31 +123,31 @@
     },
     {
       "name": "Podtail",
-      "pattern": "^https://podtail.com/"
+      "pattern": "^https://podtail\\.com/"
     },
     {
       "name": "Podyssey",
-      "pattern": "^https://podyssey.fm/"
+      "pattern": "^https://podyssey\\.fm/"
     },
     {
       "name": "RadioPublic",
-      "pattern": "^https://radiopublic.com/"
+      "pattern": "^https://radiopublic\\.com/"
     },
     {
       "name": "Spotify",
-      "pattern": "https://(open|api-partner).spotify.com"
+      "pattern": "https://(open|api-partner)\\.spotify\\.com"
     },
     {
       "name": "Stitcher",
-      "pattern": "^https://(www|app|classic).stitcher.com/"
+      "pattern": "^https://(www|app|classic)\\.stitcher\\.com/"
     },
     {
-      "name": "TuneIn Radio",
-      "pattern": "^https://tunein.com/"
+      "name": "TuneIn",
+      "pattern": "^https://tunein\\.com/"
     },
     {
       "name": "Wix",
-      "pattern": "^https://podcasts.wixapps.net"
+      "pattern": "^https://podcasts\\.wixapps\\.net"
     }
   ]
 }

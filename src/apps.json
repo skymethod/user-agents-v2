@@ -72,7 +72,7 @@
       "svg": "amazon.svg"
     },
     {
-      "name": "Amazon Music Podcasts",
+      "name": "Amazon Music",
       "pattern": "^AmazonMusic",
       "description": "A music and podcasts streaming app",
       "svg": "amazon.svg",
@@ -840,7 +840,7 @@
       ]
     },
     {
-      "name": "PodcastAddict",
+      "name": "Podcast Addict",
       "pattern": "^Podcast.*Addict/",
       "examples": [
         "PodcastAddict/v2 - Dalvik/2.1.0 (Linux; U; Android 9; SM-N950U Build/PPR1.180610.011)",
@@ -848,7 +848,7 @@
       ]
     },
     {
-      "name": "PodcastRepublic",
+      "name": "Podcast Republic",
       "pattern": "^PodcastRepublic.+Android",
       "examples": [
         "PodcastRepublic/18.0 (Linux; U; Android 10;blueline/QP1A.190711.020.C3)"
