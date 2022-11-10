@@ -1,0 +1,102 @@
+{
+  "comments": "If the match entry is not a bot, you can also match the User-Agent header against this file to identity device and type.",
+  "devices": [
+    {
+      "name": "Apple HomePod",
+      "pattern": "HomePod",
+      "type": "smart_speaker"
+    },
+    {
+      "name": "Apple iPad",
+      "pattern": "ipad|iPad|IPAD",
+      "type": "mobile"
+    },
+    {
+      "name": "Apple TV",
+      "pattern": "Apple TV|AppleTV|apple;apple_tv",
+      "type": "smart_tv"
+    },
+    {
+      "name": "Apple iPhone",
+      "pattern": "iphone|iOS|iPhone|CFNetwork",
+      "type": "mobile"
+    },
+    {
+      "name": "Apple Watch",
+      "pattern": "watch|Watch OS",
+      "type": "watch"
+    },
+    {
+      "name": "Apple iPod",
+      "pattern": "iPod|IPOD",
+      "type": "mobile"
+    },
+    {
+      "name": "Apple Computer",
+      "pattern": "OS X|OSX|Macintosh|Macbook",
+      "type": "computer"
+    },
+    {
+      "name": "Google Home",
+      "pattern": "GoogleChirp|Google-Speech-Actions",
+      "type": "smart_speaker"
+    },
+    {
+      "name": "Google Chromebook",
+      "pattern": "Chromebook|CrOS",
+      "type": "computer"
+    },
+    {
+      "name": "Android Tablet",
+      "pattern": "[a|A]ndroid.*[t|T]ablet|[t|T]ablet.*[a|A]ndroid|SM-T| GT-",
+      "type": "mobile"
+    },
+    {
+      "name": "Other Smart TV",
+      "pattern": "SmartTV|Roku|CrKey|AFTT Build|AFTM Build|BRAVIA 4K|Opera TV|SmartTv|TSBNetTV|SMART-TV|TV Safari|WebTV|InettvBrowser|GoogleTV|HbbTV|smart-tv|olleh tv",
+      "type": "smart_tv",
+      "comments": "Must be before Android Phones"
+    },
+    {
+      "name": "Android Phone",
+      "pattern": "(ServeStream|Android|android|HTC|ExoPlayer)",
+      "type": "mobile",
+      "comments": "Must be after CrKey"
+    },
+    {
+      "name": "Windows Computer",
+      "pattern": "Windows|windows|WMPlayer|Winamp|Win32|Win64|NSPlayer|MediaMonkey|NSPlayer|PC",
+      "type": "computer"
+    },
+    {
+      "name": "Amazon Smart Speaker",
+      "pattern": "Alexa|^Echo/",
+      "type": "smart_speaker"
+    },
+    {
+      "name": "Other Smart Speaker",
+      "pattern": "sonos|Sonos|^Bose/|^VictorReader",
+      "type": "smart_speaker"
+    },
+    {
+      "name": "Other Computer",
+      "pattern": "Lavf/|desktop|Linux|linux|VLC|^okhttp/|CastBox/",
+      "type": "computer"
+    },
+    {
+      "name": "Other Tablet",
+      "pattern": "tablet|Tablet",
+      "type": "mobile"
+    },
+    {
+      "name": "Other Watch",
+      "pattern": "watch|Watch",
+      "type": "watch"
+    },
+    {
+      "name": "Other Mobile Device",
+      "pattern": "Player FM$|^Podkicker\/|spotify_unknown|^Castro|^Swoot Agent",
+      "type": "mobile"
+    }
+  ]
+}
