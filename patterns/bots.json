@@ -174,7 +174,7 @@
     },
     {
       "name": "Deezer Podcasters",
-      "pattern": "^Deezer Podcasters/1.0"
+      "pattern": "^Deezer Podcasters/1\\.0"
     },
     {
       "name": "dorada",
@@ -387,7 +387,7 @@
     },
     {
       "name": "Podcastindex.org",
-      "pattern": "^Podcastindex.org/",
+      "pattern": "^Podcastindex\\.org/",
       "svg": "podcast-index.svg",
       "urls": [
         "https://podcastindex.org/"
@@ -516,7 +516,7 @@
     },
     {
       "name": "RSSRadio",
-      "pattern": "^RSSRadio "
+      "pattern": "^RSSRadio \\("
     },
     {
       "name": "Ruby Mechanize",
@@ -548,7 +548,7 @@
     },
     {
       "name": "SoundOn Bot",
-      "pattern": "^SoundOn/[d.]+s+bot"
+      "pattern": "^SoundOn/[\\d.]+\\s+\\(bot"
     },
     {
       "name": "Spotify cache service",
