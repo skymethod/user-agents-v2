@@ -919,6 +919,7 @@
     {
       "name": "PodLink",
       "pattern": "PodLink",
+      "svg": "podlink.svg",
       "urls": [
         "https://pod.link/faq/crawler"
       ]
