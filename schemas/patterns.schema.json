@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "https://opawg.org/patterns",
+  "title": "OPAWG patterns file, used for matching User-Agent or Referer headers to identity podcast user agents.",
+  "description": "Top-level file, containing a list of entries",
+  "type": "object",
+  "properties": {
+    "comments": {
+      "description": "Freeform usage notes about this file.",
+      "type": "string"
+    },
+    "entries": {
+      "type": "array",
+      "description": "TODO entries",
+      "items": {
+        "type": "object",
+        "required": [ "name", "pattern" ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "TODO name"
+          },
+          "pattern": {
+            "type": "string",
+            "description": "TODO pattern"
+          },
+          "description": {
+            "type": "string",
+            "description": "TODO description"
+          },
+          "svg": {
+            "type": "string",
+            "description": "Associated icon filename over in the svg directory",
+            "examples": [ "my-podcast-app.svg" ]
+          },
+          "comments": {
+            "description": "Freeform notes about this entry.",
+            "type": "string"
+          },
+          "examples": {
+            "type": "array",
+            "description": "TODO examples",
+            "items": {
+              "type": "string"
+            }
+          },
+          "urls": {
+            "type": "array",
+            "description": "TODO urls",
+            "items": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "type": {
+            "type": "string",
+            "description": "TODO type"
+          }
+        }
+      }
+    }
+  }
+}
