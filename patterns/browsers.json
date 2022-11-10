@@ -1,6 +1,7 @@
 {
   "comments": "Look for User-Agent matches in this file order: 'bots', 'apps', 'libraries', 'browsers', and return the first entry matched, processing each entry in order in which they appear in the file. If the match entry is from this file (i.e. not a bot), you can also match the User-Agent header against the 'devices' file to identity device and type. If the match entry is a Browser (i.e. in this file), you can also match the Referer header against the 'referers' file to identify web-based apps and other known web entities.",
-  "browsers": [
+  "$schema": "https://raw.githubusercontent.com/skymethod/user-agents-v2/master/schemas/patterns.schema.json",
+  "entries": [
     {
       "name": "Brave",
       "pattern": ".+[Bb]rave"

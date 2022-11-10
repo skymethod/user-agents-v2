@@ -1,6 +1,7 @@
 {
   "comments": "If the match entry is not a bot, you can also match the User-Agent header against this file to identity device and type.",
-  "devices": [
+  "$schema": "https://raw.githubusercontent.com/skymethod/user-agents-v2/master/schemas/patterns.schema.json",
+  "entries": [
     {
       "name": "Apple HomePod",
       "pattern": "HomePod",

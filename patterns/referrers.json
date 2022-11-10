@@ -1,6 +1,7 @@
 {
   "comments": "Match the 'Referer' header (misspelled in the http spec) against entries in this file, and return the first match. Useful for web-based apps or properties, which are unable to set the User-Agent of the containing browser. If entry also exists in 'apps', assume properties like 'description', 'svg' are shared.",
-  "referrers": [
+  "$schema": "https://raw.githubusercontent.com/skymethod/user-agents-v2/master/schemas/patterns.schema.json",
+  "entries": [
     {
       "name": "Amazon Music",
       "pattern": "^https://music\\.amazon\\."
