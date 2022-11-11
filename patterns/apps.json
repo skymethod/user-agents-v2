@@ -256,9 +256,12 @@
     },
     {
       "name": "Apple iMessage",
-      "pattern": "^MessagesViewService/",
+      "pattern": "^MessagesViewService/|^Messages/|^Messages Share Extension/|^MessagesNotificationExtension/",
       "examples": [
-        "MessagesViewService/1.0 CFNetwork/1120 Darwin/19.0.0"
+        "MessagesViewService/1.0 CFNetwork/1120 Darwin/19.0.0",
+        "Messages/5500 CFNetwork/1098 Darwin/19.0.0 (x86_64)",
+        "Messages Share Extension/5500 CFNetwork/1098 Darwin/19.0.0 (x86_64)",
+        "MessagesNotificationExtension/1 CFNetwork/1098.7 Darwin/19.0.0"
       ]
     },
     {
@@ -1821,15 +1824,30 @@
       ]
     },
     {
+      "name": "Jabbercast",
+      "pattern": "^Jabbercast/",
+      "examples": [
+        "Jabbercast/16 CFNetwork/711.1.16 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "Jimcast",
+      "pattern": "^Jimcast/",
+      "examples": [
+        "Jimcast/1.0 CFNetwork/672.1.15 Darwin/14.0.0"
+      ]
+    },
+    {
       "name": "JioSaavn",
-      "pattern": "(^com.jio.media.jiobeats|^com.saavn.android|^saavn)",
+      "pattern": "(^com.jio.media.jiobeats|^com.saavn.android|^[sS]aavn)",
       "description": "A music streaming and podcast app from India. Earn Your Happy!",
       "urls": [
         "https://www.jiosaavn.com/"
       ],
       "comments": "The user-agent will start with one of the above strings followed by the app version and player version.",
       "examples": [
-        "com.jio.media.jiobeats/7.3.1 (Linux;Android 8.1.0) ExoPlayerLib/2.11.4"
+        "com.jio.media.jiobeats/7.3.1 (Linux;Android 8.1.0) ExoPlayerLib/2.11.4",
+        "Saavn Player"
       ]
     },
     {
@@ -1843,8 +1861,111 @@
       ]
     },
     {
+      "name": "Juice",
+      "pattern": "^Juice/",
+      "examples": [
+        "Juice/2.2 (Darwin) +http://juicereceiver.sf.net/"
+      ]
+    },
+    {
+      "name": "Just Audio",
+      "pattern": "just_audio/",
+      "examples": [
+        "just_audio/3.6.2 (Linux;Android 9) ExoPlayerLib/2.13.1"
+      ]
+    },
+    {
+      "name": "Kajabi",
+      "pattern": " Kajabi|KajabiPodcast",
+      "examples": [
+        "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 KajabiMobileApp",
+        "KajabiPodcast"
+      ]
+    },
+    {
+      "name": "KakaoTalk",
+      "pattern": "^KakaoTalk/",
+      "examples": [
+        "KakaoTalk/2019.10.30.1 CFNetwork/1120 Darwin/19.0.0"
+      ]
+    },
+    {
+      "name": "KaoticRadio.com",
+      "pattern": "^KaoticRadio\\.com/",
+      "examples": [
+        "KaoticRadio.com/1.56.67.564 CFNetwork/672.1.15 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "Kids Listen",
+      "pattern": "^Kids(%20| )Listen/",
+      "examples": [
+        "Kids%20Listen/55 CFNetwork/1107.1 Darwin/19.0.0",
+        "Kids Listen/55 CFNetwork/1107.1 Darwin/19.0.0"
+      ]
+    },
+    {
+      "name": "KKBOX",
+      "pattern": "^KKBOX/",
+      "examples": [
+        "KKBOX/7.10.70/iOS/14.2"
+      ]
+    },
+    {
+      "name": "Kloudie",
+      "pattern": "^Kloudie/",
+      "examples": [
+        "Kloudie/1.0 CFNetwork/758.1.6 Darwin/15.0.0"
+      ]
+    },
+    {
+      "name": "Knomad",
+      "pattern": "^Knomad/",
+      "examples": [
+        "Knomad/1.1.9 CFNetwork/711.1.12 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "Kodi",
+      "pattern": "^Kodi/",
+      "examples": [
+        "Kodi/15.2 (Linux; Android 5.1; QM152E Build/LMY47D) Android/5.1.0 Sys_CPU/armv7l App_Bitness/32 Version/15.2-Git:2015-10-27-17fa8da"
+      ]
+    },
+    {
+      "name": "KREAFUNK",
+      "pattern": "^KREAFUNK/",
+      "examples": [
+        "KREAFUNK/1.7 CFNetwork/711.3.18 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "labs",
+      "pattern": "^labs/",
+      "examples": [
+        "labs/0.1.1.5 CFNetwork/711.2.23 Darwin/14.0.0"
+      ]
+    },
+    {
       "name": "Laughable",
-      "pattern": "^Laughable.+iOS"
+      "pattern": "^Laughable.+iOS|^Laughable/",
+      "examples": [
+        "Laughable/2.1.6.1 CFNetwork/808.1.4 Darwin/16.1.0"
+      ]
+    },
+    {
+      "name": "LBC",
+      "pattern": "^LBC/",
+      "examples": [
+        "LBC/1544724632 CFNetwork/811.5.4 Darwin/16.7.0"
+      ]
+    },
+    {
+      "name": "Leaf",
+      "pattern": "^Leaf/",
+      "examples": [
+        "Leaf/12 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)"
+      ]
     },
     {
       "name": "Les Indés Radios",
@@ -1864,11 +1985,28 @@
       "pattern": "LG Player"
     },
     {
+      "name": "LifeEssentials",
+      "pattern": "^Life(%20)?Essentials(App)?/",
+      "examples": [
+        "LifeEssentials/1.0 CFNetwork/758.0.2 Darwin/15.0.0",
+        "LifeEssentialsApp/2.1.0 CFNetwork/758.5.3 Darwin/15.6.0",
+        "Life%20Essentials/1.0 CFNetwork/672.1.15 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "lifegateburleson",
+      "pattern": "^lifegateburleson/",
+      "examples": [
+        "lifegateburleson/10 CFNetwork/672.1.15 Darwin/14.0.0"
+      ]
+    },
+    {
       "name": "LinkedIn",
-      "pattern": "iPhone.+\\[LinkedInApp\\]",
+      "pattern": "iPhone.+\\[LinkedInApp\\]|^LinkedIn/",
       "description": "The LinkedIn app's built-in browser on iPhones.",
       "examples": [
-        "Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [LinkedInApp]"
+        "Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [LinkedInApp]",
+        "LinkedIn/9.14.4868 CFNetwork/1107.1 Darwin/19.0.0"
       ]
     },
     {
@@ -1883,14 +2021,37 @@
       ]
     },
     {
+      "name": "Listen",
+      "pattern": "^Listen( App)?/",
+      "examples": [
+        "Listen/1 CFNetwork/1107.1 Darwin/19.0.0",
+        "Listen App/84 CFNetwork/1240.0.4 Darwin/20.6.0"
+      ]
+    },
+    {
       "name": "Listen5",
       "pattern": "Listen5"
     },
     {
-      "name": "Luminary",
-      "pattern": "^Luminary(Preprod)?/",
+      "name": "Livio Radio",
+      "pattern": "^Livio Radio/",
       "examples": [
-        "LuminaryPreprod/27 CFNetwork/976 Darwin/18.2.0"
+        "Livio Radio/2.6.2 CFNetwork/609.1.4 Darwin/13.0.0"
+      ]
+    },
+    {
+      "name": "Luminary",
+      "pattern": "^Luminary(Preprod)?/|^luminary\\.next/",
+      "examples": [
+        "LuminaryPreprod/27 CFNetwork/976 Darwin/18.2.0",
+        "luminary.next/1.25 (Linux;Android 9) ExoPlayerLib/2.10.5"
+      ]
+    },
+    {
+      "name": "MacJournal",
+      "pattern": "^MacJournal/",
+      "examples": [
+        "MacJournal/6.2.1 CFNetwork/811.5.4 Darwin/16.7.0 (x86_64)"
       ]
     },
     {
@@ -1898,8 +2059,72 @@
       "pattern": "^MajelanApp"
     },
     {
+      "name": "MaxTubePro",
+      "pattern": "^MaxTubePro/",
+      "examples": [
+        "MaxTubePro/1.5 CFNetwork/711.1.16 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "Meadowbrook Church",
+      "pattern": "^Meadowbrook Church/",
+      "examples": [
+        "Meadowbrook Church/4.10.2 CFNetwork/978.0.7 Darwin/18.6.0"
+      ]
+    },
+    {
       "name": "MediaMonkey",
       "pattern": "^MediaMonkey"
+    },
+    {
+      "name": "Mediatap",
+      "pattern": "^Mediatap/",
+      "examples": [
+        "Mediatap/342 CFNetwork/672.1.13 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "Megaphone",
+      "pattern": "^Megaphone\\.fm",
+      "examples": [
+        "Megaphone.fm"
+      ]
+    },
+    {
+      "name": "Menucast",
+      "pattern": "^Menucast/",
+      "examples": [
+        "Menucast/1.4 CFNetwork/720.1.1 Darwin/14.0.0 (x86_64)"
+      ]
+    },
+    {
+      "name": "Message+",
+      "pattern": "^Message\\+/",
+      "examples": [
+        "Message+/2.4.7 CFNetwork/811.5.4 Darwin/16.7.0 (x86_64)"
+      ]
+    },
+    {
+      "name": "Messenger",
+      "pattern": "^Messenger/",
+      "examples": [
+        "Messenger/168725151 CFNetwork/1107.1 Darwin/19.0.0"
+      ]
+    },
+    {
+      "name": "Microsoft Xbox",
+      "pattern": "^microsoft;xbox_",
+      "examples": [
+        "microsoft;xbox_one;1fc2d01aa9074dde950e8d3dc0eb1729;;tpapi;3.167.55",
+        "microsoft;xbox_series_x;1fc2d01aa9074dde950e8d3dc0eb1729;;tpapi;3.167.55 Dynamo/1.0"
+      ]
+    },
+    {
+      "name": "Mimir",
+      "pattern": "^Mimir/",
+      "examples": [
+        "Mimir/1 CFNetwork/1098 Darwin/19.0.0 (x86_64)"
+      ]
     },
     {
       "name": "Miro",
@@ -1912,6 +2137,13 @@
       ]
     },
     {
+      "name": "Mixcloud",
+      "pattern": "^Mixcloud/",
+      "examples": [
+        "Mixcloud/22.2.5 (Linux;Android 6.0.1) ExoPlayerLib/2.10.4"
+      ]
+    },
+    {
       "name": "MixerBox",
       "pattern": "^MixerBox/",
       "urls": [
@@ -1921,6 +2153,28 @@
         "MixerBox/12.33 (Linux;Android 11) ExoPlayerLib/2.11.1",
         "MixerBox/807.iOS (iPhone; iOS 14.4; en_US)",
         "MixerBox/869 CFNetwork/1300.1 Darwin/21.0.0"
+      ]
+    },
+    {
+      "name": "MobileApp",
+      "pattern": "^MobileApp/",
+      "examples": [
+        "MobileApp/0 CFNetwork/758.3.15 Darwin/17.4.0"
+      ]
+    },
+    {
+      "name": "MobileSMS",
+      "pattern": "^MobileSMS/",
+      "examples": [
+        "MobileSMS/1.0 CFNetwork/1107.1 Darwin/19.0.0"
+      ]
+    },
+    {
+      "name": "MoonFM",
+      "pattern": "^Moon ?FM/",
+      "examples": [
+        "MoonFM/128 CFNetwork/978.0.7 Darwin/18.7.0",
+        "Moon FM/4.0.33"
       ]
     },
     {
@@ -1938,6 +2192,23 @@
       ],
       "examples": [
         "MusicBee"
+      ]
+    },
+    {
+      "name": "Music Download App",
+      "pattern": "^Music%20Download/",
+      "examples": [
+        "Music%20Download/45 CFNetwork/978.0.7 Darwin/18.7.0"
+      ]
+    },
+    {
+      "name": "MyTuner",
+      "pattern": "^myTuner Radio app/|^myTuner%20Radio%20app/|^mytuner_podcasts_androidplayer/|^MyTuner-",
+      "examples": [
+        "myTuner Radio app/11 CFNetwork/978.0.7 Darwin/18.7.0",
+        "myTuner%20Radio%20app/11 CFNetwork/978.0.7 Darwin/18.7.0",
+        "mytuner_podcasts_androidplayer/1.0.0 (Linux;Android 6.0) ExoPlayerLib/2.8.4",
+        "MyTuner-ExoPlayerAdapter"
       ]
     },
     {
@@ -1968,11 +2239,20 @@
       ]
     },
     {
+      "name": "Outcast",
+      "pattern": "^Outcast[/ ]",
+      "examples": [
+        "Outcast/1957 CFNetwork/889.7 Darwin/17.2.0",
+        "Outcast 3.1.6"
+      ]
+    },
+    {
       "name": "Overcast",
-      "pattern": "(^Overcast/.*iOS|^Overcast.*Apple Watch)",
+      "pattern": "^Overcast/|^Overcast.*Apple Watch",
       "examples": [
         "Overcast/3.0 (+http://overcast.fm/; iOS podcast app)",
-        "Overcast ( http://overcast.fm/; Apple Watch podcast app)"
+        "Overcast ( http://overcast.fm/; Apple Watch podcast app)",
+        "Overcast/792 CFNetwork/1098.7 Darwin/19.0.0"
       ]
     },
     {
@@ -1987,10 +2267,25 @@
     },
     {
       "name": "Pandora",
-      "pattern": "(^Pandora.+Android|iPhone.+Pandora/)",
+      "pattern": "(^Pandora.+Android| Pandora/)",
       "examples": [
         "Pandora/2009.2 Android/7.1.1 gteslteatt (ExoPlayerLib1.5.14.1)",
-        "Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Pandora/2009.2"
+        "Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Pandora/2009.2",
+        "Mozilla/5.0 (iPad; CPU OS 12_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Pandora/1908.1"
+      ]
+    },
+    {
+      "name": "Parler",
+      "pattern": "^Parler( Staging)?/",
+      "examples": [
+        "Parler Staging/542 CFNetwork/978.0.7 Darwin/18.7.0"
+      ]
+    },
+    {
+      "name": "PeaCast",
+      "pattern": "^PeaCast/",
+      "examples": [
+        "PeaCast/0.7"
       ]
     },
     {
@@ -2006,14 +2301,15 @@
     },
     {
       "name": "Player FM",
-      "pattern": "(^Player FM|^Player%20FM)",
+      "pattern": "^Player FM|^Player%20FM|^Alpha%20PlayerFM/",
       "examples": [
-        "Player%20FM/588 CFNetwork/1121.2.2 Darwin/19.2.0"
+        "Player%20FM/588 CFNetwork/1121.2.2 Darwin/19.2.0",
+        "Alpha%20PlayerFM/108 CFNetwork/808.0.2 Darwin/16.0.0"
       ]
     },
     {
       "name": "Pocket Casts",
-      "pattern": "(^Pocket Casts|^PocketCasts/)",
+      "pattern": "^Pocket Casts|^PocketCasts/|^Shifty Jelly Pocket Casts",
       "description": "A podcast app and web player",
       "svg": "pocketcasts.svg",
       "urls": [
@@ -2021,7 +2317,8 @@
       ],
       "comments": "'PocketCasts' is a feed parser; 'Pocket Casts' is the app. There is also a web player.",
       "examples": [
-        "Pocket Casts"
+        "Pocket Casts",
+        "Shifty Jelly Pocket Casts, iOS v4.2"
       ]
     },
     {
@@ -2048,10 +2345,18 @@
     },
     {
       "name": "Podcast Addict",
-      "pattern": "^Podcast.*Addict/",
+      "pattern": "^Podcast.*Addict/|^Podcast Addict ",
       "examples": [
         "PodcastAddict/v2 - Dalvik/2.1.0 (Linux; U; Android 9; SM-N950U Build/PPR1.180610.011)",
-        "PodcastAddict/v5 ( https://podcastaddict.com/; Android podcast app)"
+        "PodcastAddict/v5 ( https://podcastaddict.com/; Android podcast app)",
+        "Podcast Addict - Dalvik/2.1.0 (Linux; U; Android 9; SM-G960F Build/PPR1.180610.011)"
+      ]
+    },
+    {
+      "name": "Podcast Player",
+      "pattern": "^Podcast Player/",
+      "examples": [
+        "Podcast Player/1.0 (phone;android RMX3195_11_A.18)"
       ]
     },
     {
@@ -2059,6 +2364,14 @@
       "pattern": "^PodcastRepublic.+Android",
       "examples": [
         "PodcastRepublic/18.0 (Linux; U; Android 10;blueline/QP1A.190711.020.C3)"
+      ]
+    },
+    {
+      "name": "Podcastly",
+      "pattern": "^Podcastly/|^Podcastly$",
+      "examples": [
+        "Podcastly/1.4.1 (samsung; CPU OS android 11; en_us)",
+        "Podcastly"
       ]
     },
     {

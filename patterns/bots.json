@@ -365,6 +365,13 @@
       ]
     },
     {
+      "name": "Jaunt",
+      "pattern": "^Jaunt/",
+      "examples": [
+        "Jaunt/1.5"
+      ]
+    },
+    {
       "name": "l'Institut national de l'audiovisuel",
       "pattern": "INA dlweb",
       "urls": [
@@ -373,8 +380,18 @@
       "comments": "Institut National de l'Audiovisuel is a repository of all French radio and television audiovisual archives."
     },
     {
+      "name": "Libsyn",
+      "pattern": "^Libsyn4",
+      "examples": [
+        "Libsyn4-Download"
+      ]
+    },
+    {
       "name": "libwww-perl",
-      "pattern": "^libwww-perl"
+      "pattern": "^libwww-perl| libwww-perl",
+      "examples": [
+        "LWP::Simple/6.34 libwww-perl/6.34"
+      ]
     },
     {
       "name": "Livelap Crawler",
@@ -409,10 +426,28 @@
       ]
     },
     {
+      "name": "Mixcloud Podcast Importer",
+      "pattern": "^MixcloudPodcastImporter/",
+      "examples": [
+        "MixcloudPodcastImporter/2.0"
+      ]
+    },
+    {
       "name": "MJ12bot",
       "pattern": ".*MJ12bot",
       "examples": [
         "Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)"
+      ]
+    },
+    {
+      "name": "Mozilla Bot",
+      "pattern": "^'?Mozilla(/5\\.0(\\.\\.\\.)?)?$|^\\(Mozilla/5\\.0\\)$",
+      "examples": [
+        "Mozilla/5.0",
+        "Mozilla",
+        "Mozilla/5.0...",
+        "'Mozilla/5.0",
+        "(Mozilla/5.0)"
       ]
     },
     {
@@ -427,6 +462,13 @@
       ],
       "examples": [
         "Mozilla/5.0 (compatible; Neevabot/1.0; https://neeva.com/neevabot)"
+      ]
+    },
+    {
+      "name": "OgScrper",
+      "pattern": "OgScrper",
+      "examples": [
+        "OgScrper"
       ]
     },
     {
@@ -466,6 +508,20 @@
     {
       "name": "Pingdom",
       "pattern": "^Pingdom"
+    },
+    {
+      "name": "PlayerFM Podcast Sync",
+      "pattern": "PlayerFM/.* Podcast Sync",
+      "examples": [
+        "PlayerFM/1.0 Podcast Sync (0 subscribers; url=https://player.fm/series/series-2567872)"
+      ]
+    },
+    {
+      "name": "Podbean Importer",
+      "pattern": "^Podbean Importer",
+      "examples": [
+        "Podbean Importer"
+      ]
     },
     {
       "name": "Podcastindex.org",
@@ -602,7 +658,11 @@
     },
     {
       "name": "Ruby Mechanize",
-      "pattern": "^Mechanize"
+      "pattern": "^Mechanize|[ -]Mechanize/",
+      "examples": [
+        "Mozilla/5.0 (compatible; Mechanize/2.7.4)",
+        "WWW-Mechanize/1.72"
+      ]
     },
     {
       "name": "SEMrushBot",
