@@ -18,7 +18,7 @@
         "properties": {
           "name": {
             "type": "string",
-            "description": "Name of this entry, usually unique within the file for sanity."
+            "description": "Name of this entry, must be unique within the file."
           },
           "pattern": {
             "type": "string",

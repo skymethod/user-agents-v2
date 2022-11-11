@@ -63,7 +63,10 @@
     },
     {
       "name": "GStreamer",
-      "pattern": "^GStreamer"
+      "pattern": "^GStreamer|GStreamer/",
+      "examples": [
+        "amarok/2.8.0 (Phonon/4.7.80; Phonon-GStreamer/4.7.80)"
+      ]
     },
     {
       "name": "gvfs",

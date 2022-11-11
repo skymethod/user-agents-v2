@@ -1095,6 +1095,20 @@
       ]
     },
     {
+      "name": "Earbud",
+      "pattern": "^Earbud/",
+      "examples": [
+        "Earbud/0 CFNetwork/758.4.3 Darwin/15.5.0"
+      ]
+    },
+    {
+      "name": "EasyGet",
+      "pattern": "^EasyGet/",
+      "examples": [
+        "EasyGet/1.0.70 CFNetwork/672.1.13 Darwin/14.0.0"
+      ]
+    },
+    {
       "name": "Economist Espresso",
       "pattern": "^TheEconomist-Darwin-",
       "examples": [
@@ -1103,12 +1117,108 @@
       ]
     },
     {
+      "name": "Elevation Health",
+      "pattern": "^Elevation_Health/",
+      "examples": [
+        "Elevation_Health/2.9 CFNetwork/672.1.14 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "EMAudioPlayer",
+      "pattern": "^EMAudioPlayer ",
+      "examples": [
+        "EMAudioPlayer 2.9.7 (720) / Android 6.0.1 / MotoG3"
+      ]
+    },
+    {
+      "name": "Encounter",
+      "pattern": "^Encounter/",
+      "examples": [
+        "Encounter/1 CFNetwork/711.3.18 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "EpisodeFever",
+      "pattern": "^EpisodeFever/",
+      "examples": [
+        "EpisodeFever/21 CFNetwork/976 Darwin/18.2.0"
+      ]
+    },
+    {
+      "name": "EQu",
+      "pattern": "^EQu/",
+      "examples": [
+        "EQu/14101 CFNetwork/711.1.12 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "EvanApp",
+      "pattern": "^EvanApp/",
+      "examples": [
+        "EvanApp/1 CFNetwork/897.15 Darwin/17.5.0"
+      ]
+    },
+    {
+      "name": "Expo",
+      "pattern": "^Expo/",
+      "examples": [
+        "Expo/2.11.1.106175 CFNetwork/976 Darwin/18.2.0"
+      ]
+    },
+    {
+      "name": "ExtDownloader",
+      "pattern": "^ExtDownloader/",
+      "examples": [
+        "ExtDownloader/5.0.2 CFNetwork/758.2.8 Darwin/15.0.0"
+      ]
+    },
+    {
+      "name": "ExtraCloud",
+      "pattern": "^ExtraCloud/",
+      "examples": [
+        "ExtraCloud/1.3 CFNetwork/758.2.8 Darwin/15.0.0"
+      ]
+    },
+    {
       "name": "Facebook",
-      "pattern": "(iPhone.+\\[FBAN/FBIO.+\\]|iOS/Facebook|^FB4A/Facebook)",
+      "pattern": "(iPhone|iPad).* \\[FBAN|iOS/Facebook|^FB4A/Facebook|^facebook-mobile/|^Facebook/|^\\[FBAN/",
       "examples": [
         "Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/FBIOS;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iOS;FBSV/12.4.8;FBSS/2;FBID/phone;FBLC/de_DE;FBOP/5]",
         "iOS/Facebook",
-        "FB4A/Facebook"
+        "FB4A/Facebook",
+        "Mozilla/5.0 (iPad; CPU OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/FBIOS;FBDV/iPad6,12;FBMD/iPad;FBSN/iOS;FBSV/12.3.1;FBSS/2;FBID/tablet;FBLC/en_GB;FBOP/5;FBCR/EE]",
+        "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_1 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A402 [FBAN/FBIOS;FBAV/188.0.0.44.85;FBBV/123253203;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iOS;FBSV/11.0.1;FBSS/2;FBCR/3DK;FBID/phone;FBLC/da_DK;FBOP/5;FBRV",
+        "facebook-mobile/1.0",
+        "Facebook/180461199 CFNetwork/1107.1 Darwin/19.0.0",
+        "[FBAN/FB4A;FBAV/180.0.0.35.82;FBBV/116984898;FBDM/{density=1.5,width=480,height=854};FBLC/en_US;FBRV/0;FBCR/Verizon Wireless;FBMF/ZTE;FBBD/ZTE;FBPN/com.facebook.katana;FBDV/Z899VL;FBSV/7.1.1;FBOP/19;FBCA/armeabi-v7a:armeabi;]"
+      ]
+    },
+    {
+      "name": "FaithPlay",
+      "pattern": "^FaithPlay FaithPlay/",
+      "examples": [
+        "FaithPlay FaithPlay/1.1.5 CFNetwork/1107.1 Darwin/19.0.0"
+      ]
+    },
+    {
+      "name": "Fallound",
+      "pattern": "^Fallound/",
+      "examples": [
+        "Fallound/16 CFNetwork/975.0.3 Darwin/18.2.0"
+      ]
+    },
+    {
+      "name": "FancyMusic",
+      "pattern": "^FancyMusic/",
+      "examples": [
+        "FancyMusic/2 CFNetwork/758.1.6 Darwin/15.0.0"
+      ]
+    },
+    {
+      "name": "Feeder",
+      "pattern": "^Feeder/",
+      "examples": [
+        "Feeder/2785 CFNetwork/720.5.7 Darwin/14.5.0 (x86_64)"
       ]
     },
     {
@@ -1120,8 +1230,64 @@
       ]
     },
     {
+      "name": "Fellowship Bible Church Topeka",
+      "pattern": "^Fellowship Bible Church Topeka/",
+      "examples": [
+        "Fellowship Bible Church Topeka/4.9.2 CFNetwork/811.5.4 Darwin/16.7.0"
+      ]
+    },
+    {
+      "name": "Filebox",
+      "pattern": "^Filebox/",
+      "examples": [
+        "Filebox/2.7.3 CFNetwork/811.4.18 Darwin/16.5.0"
+      ]
+    },
+    {
+      "name": "FileBrowser",
+      "pattern": "^FileBrowser/",
+      "examples": [
+        "FileBrowser/3 CFNetwork/758.4.3 Darwin/15.5.0"
+      ]
+    },
+    {
+      "name": "Filer",
+      "pattern": "^Filer/",
+      "examples": [
+        "Filer/351 CFNetwork/976 Darwin/18.2.0"
+      ]
+    },
+    {
+      "name": "Files",
+      "pattern": "^Files/",
+      "examples": [
+        "Files/1.0 CFNetwork/758.3.15 Darwin/15.4.0"
+      ]
+    },
+    {
+      "name": "FilesPro",
+      "pattern": "^FilesPro/",
+      "examples": [
+        "FilesPro/646 CFNetwork/711.1.16 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "Fili",
+      "pattern": "^Fili/",
+      "examples": [
+        "Fili/3617 CFNetwork/609.1.4 Darwin/13.0.0"
+      ]
+    },
+    {
       "name": "Flash",
       "pattern": "(^MAC |^WIN )"
+    },
+    {
+      "name": "folkebladet.no",
+      "pattern": "^folkebladet\\.no/",
+      "examples": [
+        "folkebladet.no/252 CFNetwork/811.5.4 Darwin/16.7.0"
+      ]
     },
     {
       "name": "foobar2000",
@@ -1147,12 +1313,41 @@
       ]
     },
     {
+      "name": "FreeMP3MusicDownload",
+      "pattern": "^FreeMP3MusicDownload/",
+      "examples": [
+        "FreeMP3MusicDownload/1.5 CFNetwork/609.1.4 Darwin/13.0.0"
+      ]
+    },
+    {
+      "name": "freemusic",
+      "pattern": "^freemusic/",
+      "examples": [
+        "freemusic/2.3 CFNetwork/609 Darwin/13.0.0"
+      ]
+    },
+    {
+      "name": "FreeMusicDownloadPro",
+      "pattern": "^FreeMusicDownloadPro/",
+      "examples": [
+        "FreeMusicDownloadPro/1.8 CFNetwork/711.1.16 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "FreeMusicPlusFree",
+      "pattern": "^FreeMusicPlusFree/",
+      "examples": [
+        "FreeMusicPlusFree/2.5 CFNetwork/609.1.4 Darwin/13.0.0"
+      ]
+    },
+    {
       "name": "Gaana",
-      "pattern": "(^GaanaAndroid-|^Gaana-iOS)",
+      "pattern": "^GaanaAndroid-|^Gaana-iOS|^Gaana/",
       "examples": [
         "GaanaAndroid-8.13.0/Dalvik/2.1.0 (Linux; U; Android 9; vivo 1906 Build/PKQ1.190616.001)",
         "GaanaAndroid-8.13.0/Dalvik/2.1.0 (Linux; U; Android 5.1; Micromax P701 Build/LMY47D)",
-        "Gaana-iOS"
+        "Gaana-iOS",
+        "Gaana/1768 CFNetwork/978.0.7 Darwin/18.7.0"
       ]
     },
     {
@@ -1172,6 +1367,20 @@
       ]
     },
     {
+      "name": "GBEngine",
+      "pattern": "^GBEngine/",
+      "examples": [
+        "GBEngine/1.2 CFNetwork/672.1.14 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "GMB Show",
+      "pattern": "^GMB Show/",
+      "examples": [
+        "GMB Show/1.2.0 (iPad; iOS 9.3.2; Scale/2.00)"
+      ]
+    },
+    {
       "name": "Go Http Client",
       "pattern": "^Go-http-client",
       "comments": "This has been seen being used by a TuneIn client, and may be within WinAMP code.",
@@ -1180,8 +1389,36 @@
       ]
     },
     {
+      "name": "Godster",
+      "pattern": "^Godster/",
+      "examples": [
+        "Godster/2.0.6 (Linux;Android 9) ExoPlayerLib/2.8.3"
+      ]
+    },
+    {
+      "name": "Gold",
+      "pattern": "^Gold/",
+      "examples": [
+        "Gold/1528207522 CFNetwork/902.2 Darwin/17.7.0"
+      ]
+    },
+    {
+      "name": "GoldenPod",
+      "pattern": "^GoldenPod/",
+      "examples": [
+        "GoldenPod/0.8.4 (GNU/Linux; podcatcher; Using LWP) libwwwperl"
+      ]
+    },
+    {
+      "name": "GoLoud",
+      "pattern": "^GoLoud/",
+      "examples": [
+        "GoLoud/1092 CFNetwork/978.0.7 Darwin/18.6.0"
+      ]
+    },
+    {
       "name": "Goodpods",
-      "pattern": "(Goodpods\\.|Goodpods/1 CFNetwork)",
+      "pattern": "Goodpods\\.|^[Gg]oodpods/",
       "description": "The social podcasting app",
       "svg": "goodpods.svg",
       "urls": [
@@ -1191,7 +1428,18 @@
         "Goodpods.Android / 2.2.2",
         "Goodpods.Android / 3.2.9",
         "Goodpods.iOS / 2.2.2",
-        "Goodpods/1 CFNetwork/1329 Darwin/21.3.0"
+        "Goodpods/1 CFNetwork/1329 Darwin/21.3.0",
+        "goodpods/1 CFNetwork/1107.1 Darwin/18.7.0",
+        "Goodpods/3 CFNetwork/1128.0.1 Darwin/19.6.0"
+      ]
+    },
+    {
+      "name": "GoodReader",
+      "pattern": "^GoodReader(4|IPad)?/",
+      "examples": [
+        "GoodReader/3.17.1 CFNetwork/548.1.4 Darwin/11.0.0",
+        "GoodReader4/100 CFNetwork/711.3.18 Darwin/14.0.0",
+        "GoodReaderIPad/3.20.0 CFNetwork/711.3.18 Darwin/14.0.0"
       ]
     },
     {
@@ -1230,7 +1478,7 @@
     },
     {
       "name": "gPodder",
-      "pattern": "(^gPodder/|^gpodder\\.net)",
+      "pattern": "^gPodder/|^gpodder\\.net|gpodder",
       "urls": [
         "http://gpodder.org/"
       ],
@@ -1239,12 +1487,87 @@
         "gPodder/3.10.21 (+http://gpodder.org/) Linux",
         "gPodder/3.10.15 (+http://gpodder.org/) Linux/5.4.0-74-generic",
         "gPodder/3.10.15 (+http://gpodder.org/) Linux/5.4.0-90-generic",
-        "gPodder/3.10.17 (+http://gpodder.org/) Linux/5.11.0-49-generic"
+        "gPodder/3.10.17 (+http://gpodder.org/) Linux/5.11.0-49-generic",
+        "mygpo-feedservice +http://feeds.gpodder.net/",
+        "Detlef/1 (https://github.com/gpodder/detlef/"
+      ]
+    },
+    {
+      "name": "Grace Community Church - Texas",
+      "pattern": "^Grace%20Community%20Church%20-%20Texas/",
+      "examples": [
+        "Grace%20Community%20Church%20-%20Texas/4.4.0 CFNetwork/672.1.15 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "Grace Evangelical Covenant Church",
+      "pattern": "^Grace%20Evangelical%20Covenant%20Church/",
+      "examples": [
+        "Grace%20Evangelical%20Covenant%20Church/4.9.2 CFNetwork/893.14.2 Darwin/17.3.0"
+      ]
+    },
+    {
+      "name": "Gretale",
+      "pattern": "^Gretale/",
+      "examples": [
+        "Gretale/207 CFNetwork/978.0.7 Darwin/18.7.0"
+      ]
+    },
+    {
+      "name": "GroupMe",
+      "pattern": "^GroupMe/",
+      "examples": [
+        "GroupMe/5.33.1.1 CFNetwork/1098.7 Darwin/19.0.0"
       ]
     },
     {
       "name": "Guardian",
-      "pattern": "(^Guardian-iOSLive/|GuardianAndroidApp/)"
+      "pattern": "^Guardian-iOSLive/|GuardianAndroidApp/|^Guardian Podcast",
+      "examples": [
+        "Guardian Podcast-2018.10.14"
+      ]
+    },
+    {
+      "name": "Guacamole",
+      "pattern": "^Guacamole/",
+      "examples": [
+        "Guacamole/1528207522 CFNetwork/811.5.4 Darwin/16.7.0"
+      ]
+    },
+    {
+      "name": "GrabRadioWorld",
+      "pattern": "^GrabRadioWorld/",
+      "examples": [
+        "GrabRadioWorld/3.9 CFNetwork/758.2.8 Darwin/15.0.0"
+      ]
+    },
+    {
+      "name": "HalfTunes",
+      "pattern": "^HalfTunes/",
+      "examples": [
+        "HalfTunes/7 CFNetwork/893.14 Darwin/16.7.0"
+      ]
+    },
+    {
+      "name": "Hammel",
+      "pattern": "^Hammel/",
+      "examples": [
+        "Hammel/1.5 CFNetwork/976 Darwin/18.2.0"
+      ]
+    },
+    {
+      "name": "HardCast",
+      "pattern": "^HardCast/",
+      "examples": [
+        "HardCast/11 CFNetwork/978.0.7 Darwin/18.7.0"
+      ]
+    },
+    {
+      "name": "Heart",
+      "pattern": "^Heart/",
+      "examples": [
+        "Heart/1528207522 CFNetwork/897.15 Darwin/17.5.0"
+      ]
     },
     {
       "name": "HermesPod",
@@ -1259,12 +1582,57 @@
       ]
     },
     {
+      "name": "HiCast",
+      "pattern": "^HiCast/",
+      "examples": [
+        "HiCast/1 CFNetwork/1107.1 Darwin/19.0.0"
+      ]
+    },
+    {
+      "name": "Highly",
+      "pattern": "^Highly/",
+      "examples": [
+        "Highly/914 CFNetwork/758.5.3 Darwin/15.6.0"
+      ]
+    },
+    {
       "name": "Himalaya",
-      "pattern": "^Himalaya/.+iPhone",
+      "pattern": "^Himalaya(_test)?/",
       "description": "Himalaya is a podcast app",
       "examples": [
         "Himalaya/2.4.41 (iPhone; iOS 14.0.1; Scale/3.00; CFNetwork; iPhone9,4)",
-        "Himalaya/2.4.42 (iPhone; iOS 14.2; Scale/2.00; CFNetwork; iPhone8,1)"
+        "Himalaya/2.4.42 (iPhone; iOS 14.2; Scale/2.00; CFNetwork; iPhone8,1)",
+        "Himalaya/2.2.7 Android/25 (A577VL)",
+        "Himalaya_test/55 CFNetwork/894 Darwin/17.4.0",
+        "Himalaya/2.2.7 Android/25 (A577VL)"
+      ]
+    },
+    {
+      "name": "HopeChurchCleburne",
+      "pattern": "^HopeChurchCleburne/",
+      "examples": [
+        "HopeChurchCleburne/3 CFNetwork/974.2.1 Darwin/18.0.0"
+      ]
+    },
+    {
+      "name": "Horse Radio Network",
+      "pattern": "^HRN/",
+      "examples": [
+        "HRN/1900 CFNetwork/1107.1 Darwin/19.0.0"
+      ]
+    },
+    {
+      "name": "Hubhopper",
+      "pattern": "^Hubhopper$",
+      "examples": [
+        "Hubhopper"
+      ]
+    },
+    {
+      "name": "Hyper",
+      "pattern": "^Hyper/",
+      "examples": [
+        "Hyper/3 CFNetwork/893.14.2 Darwin/17.3.0"
       ]
     },
     {
@@ -1276,8 +1644,50 @@
       ]
     },
     {
+      "name": "iBuilder",
+      "pattern": "^iBuilder/",
+      "examples": [
+        "iBuilder/1 CFNetwork/548.1.4 Darwin/11.0.0"
+      ]
+    },
+    {
       "name": "iCatcher",
-      "pattern": "^iCatcher"
+      "pattern": "^i[Cc]atcher|\\(iCatcher",
+      "examples": [
+        "icatcher/4506 CFNetwork/609.1.4 Darwin/13.0.0",
+        "iTunes (iCatcher!/2.6.3)"
+      ]
+    },
+    {
+      "name": "iDL",
+      "pattern": "^iDL/",
+      "examples": [
+        "iDL/122 CFNetwork/811.5.4 Darwin/16.7.0"
+      ]
+    },
+    {
+      "name": "iDownloader",
+      "pattern": "IDownloaderApps4StarsFree/|^IDownloaderFree_Apps4Stars/|^iDownloader",
+      "examples": [
+        "IDownloaderApps4StarsFree\" \"IDownloaderApps4StarsFree/1.0.107 CFNetwork/672.1.14 Darwin/14.0.0",
+        "IDownloaderFree_Apps4Stars/1.10.108 CFNetwork/672.1.15 Darwin/14.0.0",
+        "iDownloaderLite/1.3 CFNetwork/609.1.4 Darwin/13.0.0",
+        "iDownloaderPro/1.0.1 CFNetwork/672.0.2 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "iDownloadsAppPlus",
+      "pattern": "^iDownloadsAppPlus/",
+      "examples": [
+        "iDownloadsAppPlus/1.6.4 CFNetwork/672.0.8 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "iFeedTouch",
+      "pattern": "^iFeedTouch/",
+      "examples": [
+        "iFeedTouch/1.02 CFNetwork/811.5.4 Darwin/16.7.0"
+      ]
     },
     {
       "name": "Iframely",
@@ -1290,8 +1700,15 @@
       ]
     },
     {
+      "name": "IFTTT",
+      "pattern": "^IFTTT/",
+      "examples": [
+        "IFTTT/550 CFNetwork/758.5.3 Darwin/15.6.0"
+      ]
+    },
+    {
       "name": "iHeartRadio",
-      "pattern": "^iHeartRadio/",
+      "pattern": "^iHeartRadio/|^iHeartPodcasts/",
       "urls": [
         "https://play.google.com/store/apps/details?id=com.clearchannel.iheartradio.controller",
         "https://apps.apple.com/us/app/iheart-radio-music-podcasts/id290638154"
@@ -1302,14 +1719,72 @@
         "iHeartRadio/2020052002 CFNetwork/1125.2 Darwin/19.4.0",
         "iHeartRadio/9.20.0 (iPhone; iOS 13.4.1; iPhone11,8)",
         "iHeartRadio/9.20.0 (iPad; iOS 13.4.1; iPad6,12)",
-        "iHeartRadio/9.7.0 (iPod touch; iOS 12.4.5; iPod7,1)"
+        "iHeartRadio/9.7.0 (iPod touch; iOS 12.4.5; iPod7,1)",
+        "iHeartPodcasts/1.1.0 (Android 10; SM-A505FN Build/QP1A.190711.020)"
+      ]
+    },
+    {
+      "name": "iHorror",
+      "pattern": "^iHorror/",
+      "examples": [
+        "iHorror/1.2.6 CFNetwork/1107.1 Darwin/19.0.0"
+      ]
+    },
+    {
+      "name": "InCast",
+      "pattern": "^InCast/",
+      "examples": [
+        "InCast/3443 CFNetwork/711.0.6 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "Instacast",
+      "pattern": "^Instacast Instacast/",
+      "examples": [
+        "Instacast Instacast/4.5.4 CFNetwork/672.1.14 Darwin/14.0.0"
       ]
     },
     {
       "name": "Instagram",
-      "pattern": "^Instagram/",
+      "pattern": "^Instagram/|Mobile/.* Instagram",
       "examples": [
-        "Instagram/252729634 CFNetwork/1126 Darwin/19.5.0"
+        "Instagram/252729634 CFNetwork/1126 Darwin/19.5.0",
+        "Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 108.0.0.9.119 (iPhone9,3; iOS 12_3_1; en_IN; en-IN; scale=2.00; 750x1334; 168879348)"
+      ]
+    },
+    {
+      "name": "iOnGreenville",
+      "pattern": "^iOnGreenville/",
+      "examples": [
+        "iOnGreenville/1 CFNetwork/978.0.7 Darwin/18.7.0"
+      ]
+    },
+    {
+      "name": "IOSAudiobooks",
+      "pattern": "^IOSAudiobooks/",
+      "examples": [
+        "IOSAudiobooks/7.4.1.1 CFNetwork/978.0.7 Darwin/18.7.0"
+      ]
+    },
+    {
+      "name": "IPF",
+      "pattern": "^IPF/",
+      "examples": [
+        "IPF/1 CFNetwork/901.1 Darwin/17.6.0"
+      ]
+    },
+    {
+      "name": "iPlay",
+      "pattern": "^iPlay/",
+      "examples": [
+        "iPlay/1 CFNetwork/889.9 Darwin/17.2.0"
+      ]
+    },
+    {
+      "name": "isitgood",
+      "pattern": "^isitgood/",
+      "examples": [
+        "isitgood/246 CFNetwork/978.0.7 Darwin/18.6.0"
       ]
     },
     {
@@ -1328,13 +1803,21 @@
     },
     {
       "name": "iVoox",
-      "pattern": "i[Vv]oox",
+      "pattern": "^[iI][Vv]oox",
       "urls": [
         "https://www.ivoox.com/"
       ],
       "examples": [
         "iVooxApp/3.85 (iPhone; iOS; iOS 15.6.1; d:16910714; 113F)",
-        "ivooxApp/2.281.428_428 (G8341; Android 9; d:420031; E5A4)"
+        "ivooxApp/2.281.428_428 (G8341; Android 9; d:420031; E5A4)",
+        "Ivoox 2.3 (iPod touch; iPhone OS 6.1.5; es_MX)"
+      ]
+    },
+    {
+      "name": "iWeb",
+      "pattern": "^iWeb/",
+      "examples": [
+        "iWeb/1.3.0 CFNetwork/711.1.12 Darwin/14.0.0"
       ]
     },
     {
