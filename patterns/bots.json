@@ -618,6 +618,13 @@
       ]
     },
     {
+      "name": "Podscribe",
+      "pattern": "^Adswizz-podscribe/",
+      "examples": [
+        "Adswizz-podscribe/1.0"
+      ]
+    },
+    {
       "name": "Podverse Feed Parser",
       "pattern": "^Podverse/Feed Parser",
       "description": "The Podverse feed parser.",
@@ -724,6 +731,13 @@
       "pattern": "^Typhoeus"
     },
     {
+      "name": "UCast",
+      "pattern": "^UCast/",
+      "examples": [
+        "UCast/1.0 Podcast Sync (1 subscribers; feed-id=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMDg0OTQucnNzEAEBAD32-0242-42AC-8583-21E9BAD8C544; +http://www.ucastapp.com/)"
+      ]
+    },
+    {
       "name": "Vurbl",
       "pattern": "VurblBot",
       "description": "An audio streaming destination",
@@ -739,6 +753,20 @@
       "pattern": "Wget"
     },
     {
+      "name": "weborama",
+      "pattern": "^weborama-fetcher",
+      "examples": [
+        "weborama-fetcher (+http://www.weborama.com)"
+      ]
+    },
+    {
+      "name": "Windows Crawler",
+      "pattern": "^ZDM/.*Windows",
+      "examples": [
+        "ZDM/4.0; Windows Mobile 7.0;"
+      ]
+    },
+    {
       "name": "WordPress",
       "pattern": "^WordPress"
     },
@@ -751,6 +779,13 @@
       ],
       "examples": [
         "yacybot (/global; amd64 Linux 5.9.8-zen1-1-zen; java 1.8.0_265; Europe/de) http://yacy.net/bot.html"
+      ]
+    },
+    {
+      "name": "Yahoo Crawler",
+      "pattern": "Yahoo! Slurp",
+      "examples": [
+        "Crawler Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)"
       ]
     },
     {

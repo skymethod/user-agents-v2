@@ -43,9 +43,10 @@
     },
     {
       "name": "Dalvik",
-      "pattern": "^Dalvik/",
+      "pattern": "^Dalvik[/ ]",
       "examples": [
-        "Dalvik/2.1.0 (Linux; U; Android 9; SM-N950U Build/PPR1.180610.011)"
+        "Dalvik/2.1.0 (Linux; U; Android 9; SM-N950U Build/PPR1.180610.011)",
+        "Dalvik (Linux; U; Android 4.1.1;aries/JRO03L)"
       ]
     },
     {
@@ -78,6 +79,13 @@
       "comments": "This is the KaiOS Downloader library, and this could refer to any app on this platform",
       "examples": [
         "KaiOS Downloader"
+      ]
+    },
+    {
+      "name": "Android License Verification Library",
+      "pattern": "^Android\\.LVLDM$",
+      "examples": [
+        "Android.LVLDM"
       ]
     },
     {
