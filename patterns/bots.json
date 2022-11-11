@@ -16,7 +16,8 @@
         "http://ahrefs.com/robot/"
       ],
       "examples": [
-        "Mozilla/5.0 (compatible; AhrefsBot/7.0; http://ahrefs.com/robot/)"
+        "Mozilla/5.0 (compatible; AhrefsBot/7.0; http://ahrefs.com/robot/)",
+        "Mozilla/5.0 (compatible; AhrefsBot/6.1; +http://ahrefs.com/robot/)"
       ]
     },
     {
@@ -39,6 +40,13 @@
         "https://developer.amazon.com/docs/flashbriefing/flash-briefing-skill-api-feed-reference.html#performance-requirements"
       ],
       "comments": "Stats are available within the Alexa skills dashboard."
+    },
+    {
+      "name": "AlignaBot",
+      "pattern": "^Alignabot",
+      "examples": [
+        "Alignabot 1.0 (https://www.alignable.com/)"
+      ]
     },
     {
       "name": "Amazon Music Podcasts Bot",
