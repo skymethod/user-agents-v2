@@ -1,0 +1,12 @@
+name: Test on push
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  test-all-patterns:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Test all patterns
+        run: ./.github/test-all-patterns.sh
