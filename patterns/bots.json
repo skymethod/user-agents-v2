@@ -140,6 +140,13 @@
       ]
     },
     {
+      "name": "bbot",
+      "pattern": "^bbot/",
+      "examples": [
+        "bbot/0.1"
+      ]
+    },
+    {
       "name": "British Library",
       "pattern": "^bl.uk_ldfc_bot",
       "description": "British Library's legal deposit web crawler",
@@ -148,6 +155,13 @@
       ],
       "examples": [
         "bl.uk_ldfc_bot/3.4.0-20200518 ( http://www.bl.uk/aboutus/legaldeposit/websites/websites/faqswebmaster/index.html)"
+      ]
+    },
+    {
+      "name": "CastFeedValidator",
+      "pattern": "^CastFeedValidator/",
+      "examples": [
+        "CastFeedValidator/3.0.5 (https://castfeedvalidator.com)"
       ]
     },
     {
@@ -178,7 +192,12 @@
     },
     {
       "name": "curl",
-      "pattern": "^curl"
+      "pattern": "^curl|^libcurl/|^PycURL/| curl/",
+      "examples": [
+        "libcurl/7.65.1",
+        "PycURL/7.43.0 libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3",
+        "GuzzleHttp/6.1.0 curl/7.50.1 PHP/7.0.13-0ubuntu0.16.10.1"
+      ]
     },
     {
       "name": "DataforSEO",
@@ -196,8 +215,22 @@
       "pattern": "^datagnionbot"
     },
     {
+      "name": "Daum",
+      "pattern": "http://cs\\.daum\\.net",
+      "examples": [
+        "Mozilla/5.0 (compatible; Daum/4.1; +http://cs.daum.net/faq/15/4118.html?faqId=28966)"
+      ]
+    },
+    {
       "name": "Deezer Podcasters",
       "pattern": "^Deezer Podcasters/1\\.0"
+    },
+    {
+      "name": "Digg",
+      "pattern": "^Digg ",
+      "examples": [
+        "Digg Mozilla/5.0 (Digg/1.0; support@digg.com)"
+      ]
     },
     {
       "name": "dorada",
@@ -216,6 +249,13 @@
       "pattern": "downcast feed consumer/",
       "examples": [
         "downcast feed consumer/0.0.175; (mode=dev; id=u2NgjBSPM6; downcast.fm)"
+      ]
+    },
+    {
+      "name": "DuckDuckBot",
+      "pattern": "DuckDuckBot",
+      "examples": [
+        "Mozilla/5.0 (compatible; DuckDuckBot-Https/1.1; https://duckduckgo.com/duckduckbot)"
       ]
     },
     {

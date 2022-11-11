@@ -39,9 +39,10 @@
     },
     {
       "name": "Adori",
-      "pattern": "^Adori/",
+      "pattern": "^Adori(-Dev)?/",
       "examples": [
-        "Adori/1 CFNetwork/978.0.7 Darwin/18.7.0"
+        "Adori/1 CFNetwork/978.0.7 Darwin/18.7.0",
+        "Adori-Dev/7 CFNetwork/974.2.1 Darwin/18.0.0"
       ]
     },
     {
@@ -409,6 +410,28 @@
       ]
     },
     {
+      "name": "BaladoQuebec",
+      "pattern": "^BaladoQuebec/",
+      "examples": [
+        "BaladoQuebec/1 CFNetwork/808.2.16 Darwin/16.3.0"
+      ]
+    },
+    {
+      "name": "Banter",
+      "pattern": "^Banter/|^banter-beta/",
+      "examples": [
+        "Banter/1.20.7 CFNetwork/897.15 Darwin/17.5.0",
+        "banter-beta/1.14.2 CFNetwork/893.14.2 Darwin/17.3.0"
+      ]
+    },
+    {
+      "name": "Barabbas Road Church",
+      "pattern": "^Barabbas Road Church/",
+      "examples": [
+        "Barabbas Road Church/4.9.5 CFNetwork/1098.7 Darwin/19.0.0"
+      ]
+    },
+    {
       "name": "BashPodder",
       "pattern": "^BashPodder",
       "urls": [
@@ -436,6 +459,13 @@
       ]
     },
     {
+      "name": "Bear",
+      "pattern": "^Bear/",
+      "examples": [
+        "Bear/5702 CFNetwork/811.8 Darwin/16.7.0 (x86_64)"
+      ]
+    },
+    {
       "name": "Bergens Tidende Android app",
       "pattern": "Android BT Hermes/",
       "description": "Bergens Tidende Android app",
@@ -459,13 +489,79 @@
       ]
     },
     {
+      "name": "bgwnr",
+      "pattern": "^bgwnr/",
+      "examples": [
+        "bgwnr/3300 CFNetwork/975.0.3 Darwin/18.0.0"
+      ]
+    },
+    {
+      "name": "Bible",
+      "pattern": "^Bible/",
+      "examples": [
+        "Bible/11 CFNetwork/978.0.7 Darwin/18.6.0"
+      ]
+    },
+    {
       "name": "Bitcast",
-      "pattern": "^Bitcast/",
+      "pattern": "^Bitcast(\\.fm)?/|^bitcast 4 reel/|^bitcastbitcast/",
       "urls": [
         "https://bitcast.fm/"
       ],
       "examples": [
-        "Bitcast/336 CFNetwork/1197 Darwin/20.0.0"
+        "Bitcast/336 CFNetwork/1197 Darwin/20.0.0",
+        "Bitcast.fm/104 CFNetwork/1126 Darwin/19.5.0",
+        "bitcast 4 reel/47 CFNetwork/1121.2.1 Darwin/19.3.0",
+        "bitcastbitcast/45 CFNetwork/1121.2.2 Darwin/19.3.0"
+      ]
+    },
+    {
+      "name": "Bitly",
+      "pattern": "^Bitly/",
+      "examples": [
+        "Bitly/445 CFNetwork/1107.1 Darwin/19.0.0"
+      ]
+    },
+    {
+      "name": "BizCoachPal",
+      "pattern": "^BizCoachPal/",
+      "examples": [
+        "BizCoachPal/1.5.7.24.4 CFNetwork/711.0.6 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "BMR",
+      "pattern": "^BMR/",
+      "examples": [
+        "BMR/1 CFNetwork/902.2 Darwin/17.7.0"
+      ]
+    },
+    {
+      "name": "Bolt",
+      "pattern": "^Bolt/",
+      "examples": [
+        "Bolt/10 CFNetwork/1098.7 Darwin/19.0.0"
+      ]
+    },
+    {
+      "name": "Bookmobile",
+      "pattern": "^Bookmobile/",
+      "examples": [
+        "Bookmobile/1 CFNetwork/894 Darwin/17.4.0"
+      ]
+    },
+    {
+      "name": "Bookself",
+      "pattern": "^Bookself/",
+      "examples": [
+        "Bookself/1 CFNetwork/978.0.7 Darwin/18.7.0"
+      ]
+    },
+    {
+      "name": "Boom",
+      "pattern": "^Boom/",
+      "examples": [
+        "Boom/1.3.110001 CFNetwork/976 Darwin/18.2.0"
       ]
     },
     {
@@ -473,8 +569,29 @@
       "pattern": "^Bose/"
     },
     {
+      "name": "bPod",
+      "pattern": "^bPod$",
+      "examples": [
+        "bPod"
+      ]
+    },
+    {
       "name": "Breaker",
       "pattern": "^Breaker/"
+    },
+    {
+      "name": "BrewApp",
+      "pattern": "^BrewApp/",
+      "examples": [
+        "BrewApp/262 CFNetwork/975.0.3 Darwin/18.2.0"
+      ]
+    },
+    {
+      "name": "Broadcast",
+      "pattern": "^Broadcast/",
+      "examples": [
+        "Broadcast/1.0 CFNetwork/893.14.2 Darwin/17.3.0"
+      ]
     },
     {
       "name": "Broadway Podcast Network",
@@ -485,13 +602,36 @@
       ]
     },
     {
+      "name": "Browser",
+      "pattern": "^Browser/",
+      "examples": [
+        "Browser/21060 CFNetwork/887 Darwin/17.0.0"
+      ]
+    },
+    {
+      "name": "Browser iOS",
+      "pattern": "^browser_ios/",
+      "examples": [
+        "browser_ios/19100.2.142 CFNetwork/1107.1 Darwin/19.0.0"
+      ]
+    },
+    {
+      "name": "BrowserPlus",
+      "pattern": "^BrowserPlus/",
+      "examples": [
+        "BrowserPlus/21066 CFNetwork/978.0.7 Darwin/18.5.0"
+      ]
+    },
+    {
       "name": "Bullhorn",
-      "pattern": "Bullhorn/",
+      "pattern": "^Bullhorn(/.*)?$|^Bullhorn \\(",
       "urls": [
         "http://bullhorn.fm/"
       ],
       "examples": [
-        "Bullhorn/1.0 (+http://bullhorn.fm/)"
+        "Bullhorn/1.0 (+http://bullhorn.fm/)",
+        "Bullhorn",
+        "Bullhorn (https://bullhorn.fm)"
       ]
     },
     {
@@ -503,14 +643,50 @@
       ]
     },
     {
+      "name": "Canvas",
+      "pattern": "^Canvas/",
+      "examples": [
+        "Canvas/7369 CFNetwork/1107.1 Darwin/19.0.0"
+      ]
+    },
+    {
+      "name": "Capital",
+      "pattern": "^Capital/",
+      "examples": [
+        "Capital/1528207522 CFNetwork/976 Darwin/18.2.0"
+      ]
+    },
+    {
+      "name": "capsule.fm",
+      "pattern": "^capsule\\.fm/",
+      "examples": [
+        "capsule.fm/1 CFNetwork/976 Darwin/18.2.0"
+      ]
+    },
+    {
+      "name": "Cast",
+      "pattern": "^Cast/",
+      "examples": [
+        "Cast/1031 CFNetwork/711.4.6 Darwin/14.0.0"
+      ]
+    },
+    {
       "name": "Castamatic",
-      "pattern": "^Castamatic/.+Darwin",
+      "pattern": "^Castamatic/",
       "description": "Your new favorite podcast player for iOS devices",
       "urls": [
         "https://castamatic.com"
       ],
       "examples": [
-        "Castamatic/3847 CFNetwork/1240.0.4 Darwin/20.6.0"
+        "Castamatic/3847 CFNetwork/1240.0.4 Darwin/20.6.0",
+        "Castamatic/5.1.4 (com.gunpmedia.Castamatic; build:3136; iOS 13.1.3) Alamofire/4.9.0"
+      ]
+    },
+    {
+      "name": "Castaway",
+      "pattern": "^Castaway/",
+      "examples": [
+        "Castaway/8 CFNetwork/1098.7 Darwin/19.0.0"
       ]
     },
     {
@@ -525,6 +701,13 @@
       ]
     },
     {
+      "name": "Casterbate",
+      "pattern": "^Casterbate/",
+      "examples": [
+        "Casterbate/1 CFNetwork/744.5 Darwin/14.4.0"
+      ]
+    },
+    {
       "name": "castget",
       "pattern": "^castget ",
       "urls": [
@@ -536,21 +719,144 @@
     },
     {
       "name": "Castro",
-      "pattern": "Castro ",
+      "pattern": "^Castro[/ ]",
       "examples": [
         "Castro 2019.13/1167",
-        "Castro 2020.14/1287"
+        "Castro 2020.14/1287",
+        "Castro/1024 CFNetwork/955.1.2 Darwin/18.0.0"
+      ]
+    },
+    {
+      "name": "Casts",
+      "pattern": "^Casts/",
+      "examples": [
+        "Casts/652 CFNetwork/758.2.8 Darwin/15.0.0"
+      ]
+    },
+    {
+      "name": "CCGF",
+      "pattern": "^CCGF/",
+      "examples": [
+        "CCGF/4.4.1 CFNetwork/758.5.3 Darwin/15.6.0"
+      ]
+    },
+    {
+      "name": "CEBrowser",
+      "pattern": "^CEBrowser/",
+      "examples": [
+        "CEBrowser/2.5.2.4 CFNetwork/711.1.12 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "CFC",
+      "pattern": "^CFC/",
+      "examples": [
+        "CFC/1 CFNetwork/711.3.18 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "CHCLeaders",
+      "pattern": "^CHCLeaders/",
+      "examples": [
+        "CHCLeaders/11 CFNetwork/894 Darwin/17.4.0"
+      ]
+    },
+    {
+      "name": "Childress",
+      "pattern": "^Childress/",
+      "examples": [
+        "Childress/1 CFNetwork/1107.1 Darwin/19.0.0"
+      ]
+    },
+    {
+      "name": "chorus",
+      "pattern": "^chorus/",
+      "examples": [
+        "chorus/698 CFNetwork/811.5.4 Darwin/16.6.0"
+      ]
+    },
+    {
+      "name": "Christian Life Austin",
+      "pattern": "^Christian Life Austin/",
+      "examples": [
+        "Christian Life Austin/4.9.4 CFNetwork/893.14.2 Darwin/17.3.0"
       ]
     },
     {
       "name": "Chromecast device",
-      "pattern": "(Linux).* CrKey/"
+      "pattern": "CrKey/|\\(CrKey ",
+      "examples": [
+        "Mozilla/5.0 (CrKey armv7l 1.8.17977) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.0 Safari/537.36"
+      ]
+    },
+    {
+      "name": "ChurchLink",
+      "pattern": "^ChurchLink/",
+      "examples": [
+        "ChurchLink/110519 CFNetwork/1107.1 Darwin/19.0.0"
+      ]
+    },
+    {
+      "name": "Clammr",
+      "pattern": "^Clammr/",
+      "examples": [
+        "Clammr/5 CFNetwork/758.3.15 Darwin/15.4.0"
+      ]
+    },
+    {
+      "name": "Classic FM",
+      "pattern": "^Classic FM/",
+      "examples": [
+        "Classic FM/1563188702 CFNetwork/978.0.7 Darwin/18.7.0"
+      ]
+    },
+    {
+      "name": "Client",
+      "pattern": "^Client/",
+      "examples": [
+        "Client/16042 CFNetwork/1098.7 Darwin/19.0.0"
+      ]
     },
     {
       "name": "Clementine Music Player",
       "pattern": "^Clementine ",
       "urls": [
         "https://www.clementine-player.org/"
+      ]
+    },
+    {
+      "name": "Club",
+      "pattern": "^Club/",
+      "examples": [
+        "Club/126 CFNetwork/672.1.15 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "Commotion",
+      "pattern": "^Commotion/",
+      "examples": [
+        "Commotion/3.0.79 CFNetwork/609 Darwin/13.0.0"
+      ]
+    },
+    {
+      "name": "Copied",
+      "pattern": "^Copied/",
+      "examples": [
+        "Copied/142 CFNetwork/760.2.6 Darwin/15.2.0 (x86_64)"
+      ]
+    },
+    {
+      "name": "CoreDataPlayerSample",
+      "pattern": "^CoreDataPlayerSample/",
+      "examples": [
+        "CoreDataPlayerSample/1 CFNetwork/975.0.3 Darwin/17.7.0"
+      ]
+    },
+    {
+      "name": "Cosmicast",
+      "pattern": "^Cosmicast/",
+      "examples": [
+        "Cosmicast/1 CFNetwork/1107.1 Darwin/19.0.0"
       ]
     },
     {
@@ -562,6 +868,41 @@
       ],
       "examples": [
         "CPod/1.27.1 (github.com/z-------------)"
+      ]
+    },
+    {
+      "name": "Crosspoint City Church",
+      "pattern": "^Crosspoint City Church/",
+      "examples": [
+        "Crosspoint City Church/4.12.5 CFNetwork/976 Darwin/18.2.0"
+      ]
+    },
+    {
+      "name": "Crosspointe",
+      "pattern": "^Crosspointe/",
+      "examples": [
+        "Crosspointe/1 CFNetwork/1107.1 Darwin/19.0.0"
+      ]
+    },
+    {
+      "name": "CrossPreach",
+      "pattern": "^CrossPreach/",
+      "examples": [
+        "CrossPreach/1.3 CFNetwork/711.1.16 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "DataDogApp",
+      "pattern": "^DataDogApp/",
+      "examples": [
+        "DataDogApp/0.8.12 CFNetwork/811.5.4 Darwin/16.6.0"
+      ]
+    },
+    {
+      "name": "DaumWebtoon",
+      "pattern": "^DaumWebtoon/",
+      "examples": [
+        "DaumWebtoon/1 CFNetwork/975.0.3 Darwin/18.2.0"
       ]
     },
     {
@@ -581,6 +922,13 @@
       ]
     },
     {
+      "name": "Delve",
+      "pattern": "^Delve/",
+      "examples": [
+        "Delve/41 CFNetwork/978.0.7 Darwin/18.7.0"
+      ]
+    },
+    {
       "name": "DevCasts",
       "pattern": "^devcasts/.*CFNetwork",
       "description": "Our Devcasts app is a new kind of podcast listening app. It is simply the best way for developers to enjoy all of the excellent podcast content created for developers.",
@@ -592,10 +940,32 @@
       ]
     },
     {
+      "name": "DManager",
+      "pattern": "^DManager/",
+      "examples": [
+        "DManager/27 CFNetwork/1107.1 Darwin/19.0.0"
+      ]
+    },
+    {
+      "name": "Documents",
+      "pattern": "^Documents/",
+      "examples": [
+        "Documents/6.9.8.634 CFNetwork/1107.1 Darwin/19.0.0"
+      ]
+    },
+    {
       "name": "DoggCatcher",
       "pattern": "DoggCatcher",
       "examples": [
         "Mozilla/5.0 (Linux; U; Windows NT 6.1; en-us; dream) DoggCatcher"
+      ]
+    },
+    {
+      "name": "DolphiniPad",
+      "pattern": "^Dolphini(Pad|Phone)/",
+      "examples": [
+        "DolphiniPad/9000144 CFNetwork/758.5.3 Darwin/15.6.0",
+        "DolphiniPhone/9000005 CFNetwork/758.0.2 Darwin/15.0.0"
       ]
     },
     {
@@ -615,6 +985,97 @@
         "Downcast/2.9.42 (iPhone; iOS 12.4.1; Scale/3.00)",
         "Downcast/2.9.57 (iPad; iOS 14.2; Scale/2.00)",
         "Downcast/2.9.57 (Mac OS X Version 10.15.7 (Build 19H15))"
+      ]
+    },
+    {
+      "name": "Downie",
+      "pattern": "^Downie/",
+      "examples": [
+        "Downie/1108 CFNetwork/760.2.6 Darwin/15.2.0 (x86_64)"
+      ]
+    },
+    {
+      "name": "DownloadAll",
+      "pattern": "^DownloadAll/",
+      "examples": [
+        "DownloadAll/1.0.3 CFNetwork/672.1.13 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "Downloader",
+      "pattern": "^Downloader/",
+      "examples": [
+        "Downloader/1.0.0 CFNetwork/711.3.18 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "DownloaderLite",
+      "pattern": "^DownloaderLite/",
+      "examples": [
+        "DownloaderLite/1.0 CFNetwork/672.1.14 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "DownloaderSound",
+      "pattern": "^DownloaderSound/",
+      "examples": [
+        "DownloaderSound/1.4 CFNetwork/609.1.4 Darwin/13.0.0"
+      ]
+    },
+    {
+      "name": "Download Shuttle",
+      "pattern": "^Download Shuttle/",
+      "examples": [
+        "Download Shuttle/24 CFNetwork/1082.2 Darwin/19.0.0 (x86_64)"
+      ]
+    },
+    {
+      "name": "DownloadPro",
+      "pattern": "^DownloadPro/",
+      "examples": [
+        "DownloadPro/1.0.1 CFNetwork/672.0.8 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "Downloads",
+      "pattern": "^Downloads/",
+      "examples": [
+        "Downloads/20375 CFNetwork/1098.7 Darwin/19.0.0"
+      ]
+    },
+    {
+      "name": "DownMan",
+      "pattern": "^DownMan/",
+      "examples": [
+        "DownMan/3.0.1 CFNetwork/609 Darwin/13.0.0"
+      ]
+    },
+    {
+      "name": "DowntonAppy",
+      "pattern": "^DowntonAppy/",
+      "examples": [
+        "DowntonAppy/1382280772 CFNetwork/548.0.4 Darwin/11.0.0"
+      ]
+    },
+    {
+      "name": "DriveCast",
+      "pattern": "^DriveCast/",
+      "examples": [
+        "DriveCast/2.9 CFNetwork/609.1.4 Darwin/13.0.0"
+      ]
+    },
+    {
+      "name": "DroolRadio",
+      "pattern": "^DroolRadio/",
+      "examples": [
+        "DroolRadio/38 CFNetwork/609.1.4 Darwin/13.0.0"
+      ]
+    },
+    {
+      "name": "Dynamo",
+      "pattern": "^Dynamo/",
+      "examples": [
+        "Dynamo/1.0"
       ]
     },
     {
@@ -944,7 +1405,10 @@
     },
     {
       "name": "Luminary",
-      "pattern": "^Luminary/"
+      "pattern": "^Luminary(Preprod)?/",
+      "examples": [
+        "LuminaryPreprod/27 CFNetwork/976 Darwin/18.2.0"
+      ]
     },
     {
       "name": "Majelan",
