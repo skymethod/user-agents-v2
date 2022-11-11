@@ -24,7 +24,7 @@
       "pattern": "AirableBot-Podcast/",
       "description": "An aggregator of internet radio and podcasts, for connected devices.",
       "urls": [
-        "https//www.airablenow.com"
+        "https://www.airablenow.com"
       ],
       "examples": [
         "AirableBot-Podcast/1.0 (+https//www.airablenow.com)"
@@ -221,7 +221,7 @@
     },
     {
       "name": "Goodpods Bot",
-      "pattern": "Goodpods/d+.d+",
+      "pattern": "Goodpods/\\d+\\.\\d+",
       "description": "The social podcasting app",
       "svg": "goodpods.svg",
       "urls": [
@@ -403,7 +403,7 @@
       "urls": [
         "https://podcloud.fr"
       ],
-      "comments": "This useragent is a bot, doing feed updates and downloading media files. It was observed every six hours. User plays will have a standard browser useragent with a referer of https://podcloud.fr/ "
+      "comments": "This useragent is a bot, doing feed updates and downloading media files. It was observed every six hours. User plays will have a standard browser useragent with a referer of https://podcloud.fr/"
     },
     {
       "name": "Podcorn",
