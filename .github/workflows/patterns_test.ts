@@ -4,7 +4,7 @@ import { join, fromFileUrl } from 'https://deno.land/std@0.163.0/path/mod.ts';
 Deno.test({
     name: 'patterns',
     fn: async () => {
-        const filepath = join(fromFileUrl(import.meta.url), '../../../patterns/apps.json');
+        const filepath = join(fromFileUrl(import.meta.url), '../../patterns/apps.json');
         const txt = await Deno.readTextFile(filepath);
         const obj = JSON.parse(txt);
         if (!Array.isArray(obj.entries)) fail(`Bad top-level object: missing 'entries' array.`);
