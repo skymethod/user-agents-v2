@@ -5,22 +5,22 @@
     {
       "name": "Apple HomePod",
       "pattern": "HomePod",
-      "type": "smart_speaker"
+      "subtype": "smart_speaker"
     },
     {
       "name": "Apple iPad",
       "pattern": "ipad|iPad|IPAD",
-      "type": "mobile"
+      "subtype": "mobile"
     },
     {
       "name": "Apple TV",
       "pattern": "Apple TV|AppleTV|apple;apple_tv",
-      "type": "smart_tv"
+      "subtype": "smart_tv"
     },
     {
       "name": "Apple iPhone",
       "pattern": "iphone|iOS|iPhone|CFNetwork| ios |phone;ios",
-      "type": "mobile",
+      "subtype": "mobile",
       "examples": [
         "Fountain/0.5.3 ios https://www.fountain.fm",
         "Anytime/1.1 b64 (phone;ios Version 15.6.1 (Build 19G82)) https://github.com/amugofjava/anytime_podcast_player"
@@ -29,43 +29,43 @@
     {
       "name": "Apple Watch",
       "pattern": "watch|Watch OS",
-      "type": "watch"
+      "subtype": "watch"
     },
     {
       "name": "Apple iPod",
       "pattern": "iPod|IPOD",
-      "type": "mobile"
+      "subtype": "mobile"
     },
     {
       "name": "Apple Computer",
       "pattern": "OS X|OSX|Macintosh|Macbook",
-      "type": "computer"
+      "subtype": "computer"
     },
     {
       "name": "Google Home",
       "pattern": "GoogleChirp|Google-Speech-Actions",
-      "type": "smart_speaker"
+      "subtype": "smart_speaker"
     },
     {
       "name": "Google Chromebook",
       "pattern": "Chromebook|CrOS",
-      "type": "computer"
+      "subtype": "computer"
     },
     {
       "name": "Android Tablet",
       "pattern": "[a|A]ndroid.*[t|T]ablet|[t|T]ablet.*[a|A]ndroid|SM-T| GT-",
-      "type": "mobile"
+      "subtype": "mobile"
     },
     {
       "name": "Other Smart TV",
       "pattern": "SmartTV|Roku|CrKey|AFTT Build|AFTM Build|BRAVIA 4K|Opera TV|SmartTv|TSBNetTV|SMART-TV|TV Safari|WebTV|InettvBrowser|GoogleTV|HbbTV|smart-tv|olleh tv",
-      "type": "smart_tv",
+      "subtype": "smart_tv",
       "comments": "Must be before Android Phones"
     },
     {
       "name": "Android Phone",
       "pattern": "ServeStream|Android|android|HTC|ExoPlayer|^AntennaPod/|^GSA/.*\\.arm(64)?$|^sp-agent",
-      "type": "mobile",
+      "subtype": "mobile",
       "comments": "Must be after CrKey and Android Tablet",
       "examples": [
         "GSA/13.39.12.26.arm64",
@@ -76,37 +76,37 @@
     {
       "name": "Windows Computer",
       "pattern": "Windows|windows|WMPlayer|Winamp|Win32|Win64|NSPlayer|MediaMonkey|NSPlayer|PC",
-      "type": "computer"
+      "subtype": "computer"
     },
     {
       "name": "Amazon Smart Speaker",
       "pattern": "Alexa|^Echo/",
-      "type": "smart_speaker"
+      "subtype": "smart_speaker"
     },
     {
       "name": "Other Smart Speaker",
       "pattern": "sonos|Sonos|^Bose/|^VictorReader",
-      "type": "smart_speaker"
+      "subtype": "smart_speaker"
     },
     {
       "name": "Other Computer",
       "pattern": "Lavf/|desktop|Linux|linux|VLC|^okhttp/|CastBox/",
-      "type": "computer"
+      "subtype": "computer"
     },
     {
       "name": "Other Tablet",
       "pattern": "tablet|Tablet",
-      "type": "mobile"
+      "subtype": "mobile"
     },
     {
       "name": "Other Watch",
       "pattern": "watch|Watch",
-      "type": "watch"
+      "subtype": "watch"
     },
     {
       "name": "Other Mobile Device",
       "pattern": "Player FM$|^Podkicker\/|spotify_unknown|^Castro|^Swoot Agent| KAIOS/|^Zune/|^PodcastGuru |^Pocket Casts$|^AmazonMusic$",
-      "type": "mobile",
+      "subtype": "mobile",
       "examples": [
         "Mozilla/5.0 (Mobile; Nokia_8110_4G; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5.1 PodKast",
         "Zune/4.8",

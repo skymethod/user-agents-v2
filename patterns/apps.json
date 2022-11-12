@@ -106,16 +106,6 @@
       ]
     },
     {
-      "name": "Airable",
-      "pattern": "^AirableBot-Podcast",
-      "urls": [
-        "https://www.airablenow.com/"
-      ],
-      "examples": [
-        "AirableBot-Podcast/1.0 ( https//www.airablenow.com)"
-      ]
-    },
-    {
       "name": "Airr",
       "pattern": "^Airr(%20Beta)?/|^Airr \\(",
       "urls": [
@@ -1497,18 +1487,11 @@
         "GooglePodcasts/2.0.10 iPhone/14.6 hw/iPhone12_1",
         "GooglePodcasts/2.0.10 iPhone/14.6 hw/iPhone13_3",
         "Mozilla/5.0 (iPhone; CPU iPhone OS 13_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/107.0.310639584 Mobile/15E148 Safari/604.1",
+        "Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/166.0.381336632 Mobile/15E148 Safari/604.1",
         "Mozilla/5.0 (iPod touch; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/107.0.310639584 Mobile/15E148 Safari/601.1",
         "GSA/13.38.11.26.arm64",
         "Mozilla/5.0 (Linux; Android 10; Pixel 3a Build/QQ2A.200305.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.149 Mobile Safari/537.36 GSA/11.2.7.21.arm64",
         "Mozilla/5.0 (Linux; Android 10; SM-G986U Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.75 Mobile Safari/537.36 GSA/11.31.12.21.arm64"
-      ]
-    },
-    {
-      "name": "Google Search App",
-      "pattern": "iPhone.+GSA/\\d+",
-      "description": "The Google Search App on iPhone.",
-      "examples": [
-        "Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/166.0.381336632 Mobile/15E148 Safari/604.1"
       ]
     },
     {
@@ -2763,16 +2746,6 @@
       ]
     },
     {
-      "name": "Samsung Free",
-      "pattern": "sp-agent",
-      "urls": [
-        "https://developer.samsung.com/podcasts"
-      ],
-      "examples": [
-        "sp-agent"
-      ]
-    },
-    {
       "name": "Samsung Podcasts",
       "pattern": "^sp-agent",
       "urls": [
@@ -2780,7 +2753,8 @@
       ],
       "examples": [
         "sp-agent"
-      ]
+      ],
+      "comments": "aka Samsung Free"
     },
     {
       "name": "ServeStream",
@@ -2945,20 +2919,22 @@
       "pattern": "^Subcast"
     },
     {
-      "name": "Svenska Dagbladet Android app",
-      "pattern": "SvD Hermes/",
-      "description": "Svenska Dagbladet Android app",
-      "examples": [
-        "SvD Hermes/999999999 _app_"
-      ]
-    },
-    {
       "name": "Svenska Dagbladet iOS app",
       "pattern": "iOS SvD Hermes/",
       "description": "Svenska Dagbladet iOS app",
       "examples": [
         "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS SvD Hermes/90.0.0 _app_"
-      ]
+      ],
+      "comments": "Must match above android app"
+    },
+    {
+      "name": "Svenska Dagbladet Android app",
+      "pattern": "SvD Hermes/",
+      "description": "Svenska Dagbladet Android app",
+      "examples": [
+        "SvD Hermes/999999999 _app_"
+      ],
+      "comments": "Must match after ios app"
     },
     {
       "name": "Swinsian",

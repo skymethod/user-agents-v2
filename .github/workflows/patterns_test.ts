@@ -4,18 +4,22 @@ import { join, fromFileUrl } from 'https://deno.land/std@0.163.0/path/mod.ts';
 Deno.test({
     name: 'patterns',
     fn: async () => {
-        for (const file of [ 'apps', 'bots', 'browsers', 'devices', 'libraries', 'referrers' ]) {
-            const filepath = join(fromFileUrl(import.meta.url), `../../../patterns/${file}.json`);
+        const entriesByType = new Map<Type, Entry[]>();
+
+        // first, read and perform basic parsing/validation on each entries file
+        for (const type of [ 'apps', 'bots', 'browsers', 'devices', 'libraries', 'referrers' ] as Type[]) {
+            const filepath = join(fromFileUrl(import.meta.url), `../../../patterns/${type}.json`);
             const txt = await Deno.readTextFile(filepath);
             const obj = JSON.parse(txt);
             if (!Array.isArray(obj.entries)) fail(`Bad top-level object: missing 'entries' array.`);
             const names = new Set<string>();
+            const entries: Entry[] = [];
             let i = 0;
             for (const entry of obj.entries) {
-                const tag = `${file}.entry[${i}]`;
+                const tag = `${type}.entry[${i}]`;
                 if (typeof entry !== 'object' || entry === null) fail(`Bad ${tag}: expected an object, found ${JSON.stringify(entry)}`);
 
-                const { name, pattern, description, examples, svg, comments, type, urls } = entry as Record<string, unknown>;
+                const { name, pattern, description, examples, svg, comments, subtype, urls } = entry as Record<string, unknown>;
 
                 // name
                 if (typeof name !== 'string') fail(`Bad ${tag}.name: expected a string property, found ${JSON.stringify(entry)}`);
@@ -55,7 +59,7 @@ Deno.test({
                     if (!Array.isArray(examples)) fail(`Bad ${tag}.examples: expected an array, found ${JSON.stringify(examples)}`);
                     examples.forEach((example: unknown, j: number) => {
                         if (typeof example !== 'string') fail(`Bad ${tag}.examples[${j}]: expected a string, found ${JSON.stringify(example)}`);
-                        if (!regex.test(example)) fail(`Bad ${tag}.examples[${j}]: \"${example}\" does not match pattern \"${pattern}\"`);
+                        if (!regex.test(example)) fail(`Bad ${tag}.examples[${j}]: "${example}" does not match pattern "${pattern}"`);
                     });
                 }
 
@@ -64,16 +68,37 @@ Deno.test({
                     if (!Array.isArray(urls)) fail(`Bad ${tag}.urls: expected an array, found ${JSON.stringify(urls)}`);
                     urls.forEach((url: unknown, j: number) => {
                         if (typeof url !== 'string') fail(`Bad ${tag}.urls[${j}]: expected a string, found ${JSON.stringify(url)}`);
-                        if (!isValidUrl(url)) fail(`Bad ${tag}.urls[${j}]: expected url, found \"${url}\"`);
+                        if (!isValidUrl(url)) fail(`Bad ${tag}.urls[${j}]: expected url, found "${url}"`);
                     });
                 }
 
                 // type
-                if (type !== undefined && typeof type !== 'string') fail(`Bad ${tag}.type: expected an optional type property, found ${JSON.stringify(entry)}`);
-                if (typeof type === 'string') {
-                    if (!/^[a-z]+(_[a-z]+)*$/.test(type)) fail(`Bad ${tag}.type: unexpected value ${JSON.stringify(type)}`);
+                if (subtype !== undefined && typeof subtype !== 'string') fail(`Bad ${tag}.subtype: expected an optional string property, found ${JSON.stringify(entry)}`);
+                if (typeof subtype === 'string') {
+                    if (!/^[a-z]+(_[a-z]+)*$/.test(subtype)) fail(`Bad ${tag}.type: unexpected value ${JSON.stringify(subtype)}`);
                 }
 
+                entries.push({ name, pattern, examples });
+
+                i++;
+            }
+            entriesByType.set(type, entries);
+        }
+
+        // now that we know all files are valid, check deterministic match for each example
+        for (const [ type, entries ] of entriesByType) {
+            if (type === 'devices' || type === 'referrers') continue;
+            let i = 0;
+            for (const { name, examples } of entries) {
+                const tag = `${type}.entry[${i}]`;
+                let j = 0;
+                for (const example of examples ?? []) {
+                    const match = computeDeterministicMatch(example, entriesByType);
+                    if (!match || match.name !== name || match.type !== type) {
+                        fail(`Bad ${tag}.examples[${j}]: ${name} "${example}" does not match itself, deterministic match ${JSON.stringify(match)}`);
+                    }
+                    j++;
+                }
                 i++;
             }
         }
@@ -87,4 +112,22 @@ function isValidUrl(url: string): boolean {
     } catch {
         return false;
     }
+}
+
+function computeDeterministicMatch(userAgent: string, entriesByType: Map<Type, Entry[]>): { type: Type, name: string } | undefined {
+    for (const type of [ 'bots', 'apps', 'libraries', 'browsers' ] as Type[]) {
+        for (const { name, pattern } of entriesByType.get(type) ?? []) {
+            if (new RegExp(pattern).test(userAgent)) {
+                return { type, name }; 
+            }
+        }
+    }
+}
+
+type Type = 'apps' | 'bots' | 'browsers' | 'devices' |'libraries' | 'referrers';
+
+interface Entry {
+    readonly name: string;
+    readonly pattern: string;
+    readonly examples?: string[];
 }

@@ -65,18 +65,6 @@
       "comments": "Default for the Dart programming language (Flutter uses Dart)"
     },
     {
-      "name": "ExoPlayer (Android)",
-      "pattern": " ExoPlayerLib/",
-      "examples": [
-        "yourApplicationName/2.21.9 (Linux;Android 11) ExoPlayerLib/2.14.0",
-        "ExoPlayerLib/2.14.0 (Linux; Android 12) ExoPlayerLib/2.14.0"
-      ],
-      "urls": [
-        "https://github.com/google/ExoPlayer"
-      ],
-      "comments": "Unable to track down where everyone is copying yourApplicationName from, there are several small exoplayer examples with similar code."
-    },
-    {
       "name": "ffmpeg",
       "pattern": "^Lavf/",
       "comments": "ffmpeg is a library used within TuneIn, VLC, ffmpeg and other programs. This is the default useragent for the ffmpeg library. Since it's a library, not an app by itself, we don't add its name here."
@@ -162,7 +150,8 @@
       "urls": [
         "https://github.com/doublesymmetry/react-native-track-player"
       ],
-      "description": "A fully fledged audio module created for music apps. Provides audio playback, external media controls, chromecast support, background mode and more!"
+      "description": "A fully fledged audio module created for music apps. Provides audio playback, external media controls, chromecast support, background mode and more!",
+      "comments": "Must match before exoplayer"
     },
     {
       "name": "Request (node)",
@@ -190,6 +179,18 @@
       "examples": [
         "Python-urllib/3.9"
       ]
+    },
+    {
+      "name": "ExoPlayer (Android)",
+      "pattern": " ExoPlayerLib/",
+      "examples": [
+        "yourApplicationName/2.21.9 (Linux;Android 11) ExoPlayerLib/2.14.0",
+        "ExoPlayerLib/2.14.0 (Linux; Android 12) ExoPlayerLib/2.14.0"
+      ],
+      "urls": [
+        "https://github.com/google/ExoPlayer"
+      ],
+      "comments": "Must match after react-native-track-player. Unable to track down where everyone is copying yourApplicationName from, there are several small exoplayer examples with similar code."
     }
   ]
 }

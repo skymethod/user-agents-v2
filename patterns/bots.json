@@ -28,7 +28,8 @@
         "https://www.airablenow.com"
       ],
       "examples": [
-        "AirableBot-Podcast/1.0 (+https//www.airablenow.com)"
+        "AirableBot-Podcast/1.0 (+https//www.airablenow.com)",
+        "AirableBot-Podcast/1.0 ( https//www.airablenow.com)"
       ]
     },
     {
