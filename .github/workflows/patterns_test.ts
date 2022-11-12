@@ -31,6 +31,12 @@ Deno.test({
                 // pattern
                 if (typeof pattern !== 'string') fail(`Bad ${tag}.pattern: expected a string property, found ${JSON.stringify(entry)}`);
                 if (/^\s+$/.test(pattern)) fail(`Bad ${tag}.pattern: expected a non-blank string`);
+                if (pattern.includes('(?:')) fail(`Bad ${tag}.pattern: non-capturing groups are not supported in all environments`);
+                if (pattern.includes('(?=') || pattern.includes('(?!')) fail(`Bad ${tag}.pattern: lookaheads are not supported in all environments`);
+                if (pattern.includes('(?<=') || pattern.includes('(?<!')) fail(`Bad ${tag}.pattern: lookbehinds are not supported in all environments`);
+                if (pattern.includes('\\A')) fail(`Bad ${tag}.pattern: \\A (beginning of string) is not supported in all environments, use ^`);
+                if (pattern.includes('\\Z')) fail(`Bad ${tag}.pattern: \\Z (end of string or before trailing newline) is not supported in all environments, use $`);
+                if (pattern.includes('\\z')) fail(`Bad ${tag}.pattern: \\z (end of string) is not supported in all environments, use $`);
                 const regex = new RegExp(pattern);
 
                 // description
