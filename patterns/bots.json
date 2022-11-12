@@ -745,6 +745,13 @@
       ]
     },
     {
+      "name": "TelegramBot",
+      "pattern": "^TelegramBot ",
+      "examples": [
+        "TelegramBot (like TwitterBot)"
+      ]
+    },
+    {
       "name": "Vurbl",
       "pattern": "VurblBot",
       "description": "An audio streaming destination",

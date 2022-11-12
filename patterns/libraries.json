@@ -42,6 +42,13 @@
       ]
     },
     {
+      "name": "Axios (Node)",
+      "pattern": "^axios/",
+      "examples": [
+        "axios/0.26.1"
+      ]
+    },
+    {
       "name": "Dalvik",
       "pattern": "^Dalvik[/ ]",
       "examples": [
@@ -50,9 +57,39 @@
       ]
     },
     {
+      "name": "Dart",
+      "pattern": "^Dart/",
+      "examples": [
+        "Dart/2.18 (dart:io)"
+      ],
+      "comments": "Default for the Dart programming language (Flutter uses Dart)"
+    },
+    {
+      "name": "ExoPlayer (Android)",
+      "pattern": " ExoPlayerLib/",
+      "examples": [
+        "yourApplicationName/2.21.9 (Linux;Android 11) ExoPlayerLib/2.14.0",
+        "ExoPlayerLib/2.14.0 (Linux; Android 12) ExoPlayerLib/2.14.0"
+      ],
+      "urls": [
+        "https://github.com/google/ExoPlayer"
+      ],
+      "comments": "Unable to track down where everyone is copying yourApplicationName from, there are several small exoplayer examples with similar code."
+    },
+    {
       "name": "ffmpeg",
       "pattern": "^Lavf/",
       "comments": "ffmpeg is a library used within TuneIn, VLC, ffmpeg and other programs. This is the default useragent for the ffmpeg library. Since it's a library, not an app by itself, we don't add its name here."
+    },
+    {
+      "name": "FileDownloader (Android)",
+      "pattern": "^FileDownloader/",
+      "examples": [
+        "FileDownloader/1.7.7"
+      ],
+      "urls": [
+        "https://github.com/lingochamp/FileDownloader"
+      ]
     },
     {
       "name": "Got (node)",
@@ -101,6 +138,17 @@
       "examples": [
         "okhttp/3.11.0"
       ]
+    },
+    {
+      "name": "react-native-track-player",
+      "pattern": "^react-native-track-player/",
+      "examples": [
+        "react-native-track-player/0.5.1 (Linux;Android 12) ExoPlayerLib/2.18.1"
+      ],
+      "urls": [
+        "https://github.com/doublesymmetry/react-native-track-player"
+      ],
+      "description": "A fully fledged audio module created for music apps. Provides audio playback, external media controls, chromecast support, background mode and more!"
     },
     {
       "name": "Request (node)",
