@@ -19,7 +19,7 @@ Deno.test({
                 const tag = `${type}.entry[${i}]`;
                 if (typeof entry !== 'object' || entry === null) fail(`Bad ${tag}: expected an object, found ${JSON.stringify(entry)}`);
 
-                const { name, pattern, description, examples, svg, comments, subtype, urls } = entry as Record<string, unknown>;
+                const { name, pattern, description, examples, svg, comments, category, urls } = entry as Record<string, unknown>;
 
                 // name
                 if (typeof name !== 'string') fail(`Bad ${tag}.name: expected a string property, found ${JSON.stringify(entry)}`);
@@ -78,10 +78,10 @@ Deno.test({
                     });
                 }
 
-                // type
-                if (subtype !== undefined && typeof subtype !== 'string') fail(`Bad ${tag}.subtype: expected an optional string property, found ${JSON.stringify(entry)}`);
-                if (typeof subtype === 'string') {
-                    if (!/^[a-z]+(_[a-z]+)*$/.test(subtype)) fail(`Bad ${tag}.type: unexpected value ${JSON.stringify(subtype)}`);
+                // category
+                if (category !== undefined && typeof category !== 'string') fail(`Bad ${tag}.category: expected an optional string property, found ${JSON.stringify(entry)}`);
+                if (typeof category === 'string') {
+                    if (!/^[a-z]+(_[a-z]+)*$/.test(category)) fail(`Bad ${tag}.category: unexpected value ${JSON.stringify(category)}`);
                 }
 
                 entries.push({ name, pattern, examples });
