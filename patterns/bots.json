@@ -116,6 +116,13 @@
       ]
     },
     {
+      "name": "Audiomack",
+      "pattern": "^Audiomack Podcast Processor/",
+      "examples": [
+        "Audiomack Podcast Processor/1.0 (https://audiomack.com/)"
+      ]
+    },
+    {
       "name": "AudioWave feed parser",
       "pattern": "^AudioWaveBot/1.0",
       "urls": [
@@ -137,6 +144,13 @@
       "pattern": "Barkrowler/",
       "urls": [
         "https://beta.babbar.tech/crawler"
+      ]
+    },
+    {
+      "name": "Baidu",
+      "pattern": "\\(ce\\.baidu\\.com",
+      "examples": [
+        "Baidu-YunGuanCe-SLABot(ce.baidu.com)"
       ]
     },
     {
@@ -416,6 +430,13 @@
       ]
     },
     {
+      "name": "Mastodon Bot",
+      "pattern": "rb/.*Mastodon/",
+      "examples": [
+        "http.rb/5.0.4 (Mastodon/3.5.3; +https://mastodon.xyz/) Bot"
+      ]
+    },
+    {
       "name": "Microsoft Bingbot",
       "pattern": "(BingPreview/|adidxbot/|bingbot/)",
       "urls": [
@@ -641,6 +662,13 @@
       "comments": "This service parses publicly-accessible RSS feeds on a timer, then stores parsed data in the Podverse database."
     },
     {
+      "name": "PodvineBot",
+      "pattern": "^PodvineBot/",
+      "examples": [
+        "PodvineBot/4.0.1 (www.podvine.com)"
+      ]
+    },
+    {
       "name": "python-requests",
       "pattern": "python-requests"
     },
@@ -680,9 +708,10 @@
     },
     {
       "name": "SEMrushBot",
-      "pattern": "SemrushBot/",
+      "pattern": "SemrushBot/|^SEMrushBot$",
       "examples": [
-        "Mozilla/5.0 (compatible; SemrushBot/6~bl; http://www.semrush.com/bot.html)"
+        "Mozilla/5.0 (compatible; SemrushBot/6~bl; http://www.semrush.com/bot.html)",
+        "SEMrushBot"
       ]
     },
     {

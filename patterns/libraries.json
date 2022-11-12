@@ -93,7 +93,10 @@
     },
     {
       "name": "Got (node)",
-      "pattern": "^got/",
+      "pattern": "^got(/| \\()",
+      "examples": [
+        "got (https://github.com/sindresorhus/got)"
+      ],
       "urls": [
         "https://play.google.com/store/apps/details?id=com.podimo&hl=en_US"
       ],
@@ -119,6 +122,16 @@
       ]
     },
     {
+      "name": "libsoup",
+      "pattern": "^libsoup/",
+      "examples": [
+        "libsoup/2.68.2"
+      ], "urls": [
+        "https://libsoup.org/"
+      ],
+      "description": "HTTP client/server library for GNOME"
+    },
+    {
       "name": "Android License Verification Library",
       "pattern": "^Android\\.LVLDM$",
       "examples": [
@@ -127,9 +140,10 @@
     },
     {
       "name": "node-fetch",
-      "pattern": "^node-fetch/",
+      "pattern": "^node-fetch(/.*)?$",
       "examples": [
-        "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+        "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)",
+        "node-fetch"
       ]
     },
     {
@@ -160,8 +174,22 @@
       "comments": "The generic Ruby user-agent."
     },
     {
+      "name": "Safari View Service (SFSafariViewController)",
+      "pattern": "^SafariViewService/",
+      "examples": [
+        "SafariViewService/8614.1.25.0.31 CFNetwork/1390 Darwin/22.0.0"
+      ]
+    },
+    {
       "name": "stagefright",
       "pattern": "stagefright/"
+    },
+    {
+      "name": "urllib (python)",
+      "pattern": "^Python-urllib/",
+      "examples": [
+        "Python-urllib/3.9"
+      ]
     }
   ]
 }

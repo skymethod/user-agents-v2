@@ -117,14 +117,15 @@
     },
     {
       "name": "Airr",
-      "pattern": "^Airr(%20Beta)?/",
+      "pattern": "^Airr(%20Beta)?/|^Airr \\(",
       "urls": [
         "https://www.airr.io/"
       ],
       "examples": [
         "Airr/3787 CFNetwork/1128.0.1 Darwin/19.6.0",
         "Airr/4070 CFNetwork/1206 Darwin/20.1.0",
-        "Airr%20Beta/672 CFNetwork/978.0.7 Darwin/18.5.0"
+        "Airr%20Beta/672 CFNetwork/978.0.7 Darwin/18.5.0",
+        "Airr (airr.io)"
       ]
     },
     {
@@ -223,9 +224,10 @@
     },
     {
       "name": "Anghami",
-      "pattern": "Anghami/",
+      "pattern": "Anghami/|^Anghami Android",
       "examples": [
-        "Anghami/502044 CFNetwork/1206 Darwin/20.1.0"
+        "Anghami/502044 CFNetwork/1206 Darwin/20.1.0",
+        "Anghami Android 6.1.157 / V 11 (6011570) Google store"
       ]
     },
     {
@@ -1772,9 +1774,10 @@
     },
     {
       "name": "Instacast",
-      "pattern": "^Instacast Instacast/",
+      "pattern": "^Instacast Instacast/|^Instacast/",
       "examples": [
-        "Instacast Instacast/4.5.4 CFNetwork/672.1.14 Darwin/14.0.0"
+        "Instacast Instacast/4.5.4 CFNetwork/672.1.14 Darwin/14.0.0",
+        "Instacast/2763 CFNetwork/1335.0.3 Darwin/21.6.0"
       ]
     },
     {
@@ -2355,6 +2358,13 @@
       ]
     },
     {
+      "name": "Podbay",
+      "pattern": "^Podbay/",
+      "examples": [
+        "Podbay/21 CFNetwork/1335.0.3 Darwin/21.6.0"
+      ]
+    },
+    {
       "name": "Podbean",
       "pattern": "^Podbean/",
       "urls": [
@@ -2569,6 +2579,13 @@
       "pattern": "felixwatts/PodPuppy",
       "examples": [
         "PodPuppy 1.0.0.0 github.com/felixwatts/PodPuppy"
+      ]
+    },
+    {
+      "name": "PodQast",
+      "pattern": "^PodQast/",
+      "examples": [
+        "PodQast/2.23 +https://gitlab.com/cy8aer/podqast"
       ]
     },
     {
@@ -2990,6 +3007,13 @@
       ]
     },
     {
+      "name": "Mozilla Thunderbird",
+      "pattern": " Thunderbird/",
+      "examples": [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Thunderbird/102.4.1"
+      ]
+    },
+    {
       "name": "TikTok",
       "pattern": "musical_ly",
       "examples": [
@@ -3042,6 +3066,16 @@
         "TwitterAndroid/8.8.0-release.82 (18080082-r-82) SM-T837V/9 (samsung;SM-T837V;Verizon;gts4lltevzw;0;;0;2015)",
         "Twitter/7.51.5 CFNetwork/978.0.7 Darwin/18.6.0",
         "Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 Twitter for iPhone/7.50"
+      ]
+    },
+    {
+      "name": "Tweetbot",
+      "pattern": "^Tweetbot/",
+      "examples": [
+        "Tweetbot/53300 CFNetwork/1335.0.3 Darwin/21.6.0"
+      ],
+      "urls": [
+        "https://tapbots.com/tweetbot/"
       ]
     },
     {

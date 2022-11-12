@@ -23,9 +23,10 @@
     },
     {
       "name": "Firefox",
-      "pattern": "(Firefox/|(Android|iPhone|iPad).*Focus/)",
+      "pattern": "Firefox/|(Android|iPhone|iPad).*Focus/| FxiOS/",
       "examples": [
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0"
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0",
+        "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/100 Mobile/15E148 Version/15.0"
       ]
     },
     {
@@ -34,6 +35,13 @@
       "examples": [
         "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)",
         "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+      ]
+    },
+    {
+      "name": "NCSA Mosaic",
+      "pattern": "^NCSA Mosaic/",
+      "examples": [
+        "NCSA Mosaic/1.0 (X11;SunOS 4.1.4 sun4m)"
       ]
     },
     {
