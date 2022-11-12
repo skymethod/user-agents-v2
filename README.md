@@ -41,9 +41,9 @@ Some of the goals of this collection:
 These patterns were initially created with a one-time automated transform of the original [OPAWG User agent list](https://github.com/opawg/user-agents), with the following transformations:
  - Converted top-level array to multiple top-level files by type, each with a top-level object - easier to deserialize in some environments than a top-level array.
  - Removed unnecessary forward-slash escaping `\/` in patterns.
- - Merged duplicate entries into a single entry, then sort alphabetically.
+ - Merged duplicate entries into a single entry, then sorted alphabetically.
  - Removed lookheads, re-ordered certain entries if necessary to emulate.
- - Combined multiple expressions for a single entry into a single regex pattern (separated by `|`), simpler and faster to compile.
+ - Combined multiple expressions for a single entry into a single regex pattern (separated by `|`), simpler and faster than compiling multiple patterns per entry.
  - Fixed some of the incorrect patterns.
  - Dropped support for OPAWG "device" and "os" attributes. Instead, introduced a new [`devices`](/patterns/devices.json) entries file ported from Buzzsprout's Ruby code. Simplified patterns that no longer needed app+device+os specificity.
  - Added a [JSON schema](/schemas/patterns.schema.json), fixed validation errors found - like incorrect info urls.
