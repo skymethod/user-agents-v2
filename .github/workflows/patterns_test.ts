@@ -1,6 +1,10 @@
 import { fail } from 'https://deno.land/std@0.163.0/testing/asserts.ts';
 import { join, fromFileUrl } from 'https://deno.land/std@0.163.0/path/mod.ts';
 
+type Type = 'apps' | 'bots' | 'browsers' | 'devices' |'libraries' | 'referrers';
+
+type Entry = { name: string, pattern: string, examples?: string[] };
+
 Deno.test({
     name: 'patterns',
     fn: async () => {
@@ -128,12 +132,4 @@ function computeDeterministicMatch(userAgent: string, entriesByType: Map<Type, E
             }
         }
     }
-}
-
-type Type = 'apps' | 'bots' | 'browsers' | 'devices' |'libraries' | 'referrers';
-
-interface Entry {
-    readonly name: string;
-    readonly pattern: string;
-    readonly examples?: string[];
 }
