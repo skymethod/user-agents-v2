@@ -19,8 +19,12 @@
     },
     {
       "name": "Apple iPhone",
-      "pattern": "iphone|iOS|iPhone|CFNetwork",
-      "type": "mobile"
+      "pattern": "iphone|iOS|iPhone|CFNetwork| ios |phone;ios",
+      "type": "mobile",
+      "examples": [
+        "Fountain/0.5.3 ios https://www.fountain.fm",
+        "Anytime/1.1 b64 (phone;ios Version 15.6.1 (Build 19G82)) https://github.com/amugofjava/anytime_podcast_player"
+      ]
     },
     {
       "name": "Apple Watch",
@@ -60,9 +64,14 @@
     },
     {
       "name": "Android Phone",
-      "pattern": "(ServeStream|Android|android|HTC|ExoPlayer)",
+      "pattern": "ServeStream|Android|android|HTC|ExoPlayer|^AntennaPod/|^GSA/.*\\.arm(64)?$|^sp-agent",
       "type": "mobile",
-      "comments": "Must be after CrKey"
+      "comments": "Must be after CrKey and Android Tablet",
+      "examples": [
+        "GSA/13.39.12.26.arm64",
+        "GSA/13.39.12.26.arm",
+        "sp-agent"
+      ]
     },
     {
       "name": "Windows Computer",
@@ -96,8 +105,15 @@
     },
     {
       "name": "Other Mobile Device",
-      "pattern": "Player FM$|^Podkicker\/|spotify_unknown|^Castro|^Swoot Agent",
-      "type": "mobile"
+      "pattern": "Player FM$|^Podkicker\/|spotify_unknown|^Castro|^Swoot Agent| KAIOS/|^Zune/|^PodcastGuru |^Pocket Casts$|^AmazonMusic$",
+      "type": "mobile",
+      "examples": [
+        "Mozilla/5.0 (Mobile; Nokia_8110_4G; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5.1 PodKast",
+        "Zune/4.8",
+        "PodcastGuru 2.0.2-beta3",
+        "Pocket Casts",
+        "AmazonMusic"
+      ]
     }
   ]
 }
