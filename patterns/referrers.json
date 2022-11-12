@@ -13,7 +13,8 @@
         "https://music.amazon.co.uk/podcasts/search/guitar/episodes",
         "https://music.amazon.co.uk/",
         "https://music.amazon.co.jp/"
-      ]
+      ],
+      "type": "app"
     },
     {
       "name": "Apple Podcasts",
@@ -21,28 +22,65 @@
       "examples": [
         "https://podcasts.apple.com/us/podcast/xya/id12341",
         "https://embed.podcasts.apple.com/"
-      ]
+      ],
+      "type": "app"
     },
     {
       "name": "Audible",
-      "pattern": "^https://www\\.audible\\.com/",
+      "pattern": "://www\\.audible(\\.com|\\.co\\.uk)/",
       "examples": [
-        "https://www.audible.com/"
-      ]
+        "https://www.audible.com/",
+        "https://www.audible.co.uk/"
+      ],
+      "type": "app"
+    },
+    {
+      "name": "Buzzsprout Web Player",
+      "pattern": "://[^./]+\\.buzzsprout\\.com/",
+      "examples": [
+        "https://asdf.buzzsprout.com/",
+        "https://www.buzzsprout.com/"
+      ],
+      "type": "host"
+    },
+    {
+      "name": "Captivate Web Player",
+      "pattern": "://player\\.captivate\\.fm/",
+      "examples": [
+        "https://player.captivate.fm/"
+      ],
+      "type": "host"
     },
     {
       "name": "CastBox",
       "pattern": "^https://castbox\\.fm/",
       "examples": [
         "https://castbox.fm/"
-      ]
+      ],
+      "type": "app"
     },
     {
       "name": "Castro",
       "pattern": "^https://castro\\.fm/",
       "examples": [
         "https://castro.fm/"
+      ],
+      "type": "app"
+    },
+    {
+      "name": "Chartable",
+      "pattern": "://link\\.chtbl\\.com/",
+      "examples": [
+        "https://link.chtbl.com/"
       ]
+    },
+    {
+      "name": "CurioCaster",
+      "pattern": "://curiocaster\\.com/",
+      "examples": [
+        "https://curiocaster.com/"
+      ],
+      "type": "app"
     },
     {
       "name": "Czech Podcasts",
@@ -56,7 +94,8 @@
       "pattern": "^https://www\\.deezer\\.com/",
       "examples": [
         "https://www.deezer.com/"
-      ]
+      ],
+      "type": "app"
     },
     {
       "name": "Facebook",
@@ -66,11 +105,29 @@
         "https://www.facebook.com/",
         "https://lm.facebook.com/",
         "https://l.facebook.com/"
-      ]
+      ],
+      "type": "app"
+    },
+    {
+      "name": "Feedly",
+      "pattern": "://feedly\\.com/",
+      "examples": [
+        "https://feedly.com/"
+      ],
+      "type": "app"
+    },
+    {
+      "name": "Fountain",
+      "pattern": "://fountain\\.fm/",
+      "examples": [
+        "https://fountain.fm/"
+      ],
+      "type": "app"
     },
     {
       "name": "Gaana",
-      "pattern": "^https://gaana\\.com/"
+      "pattern": "^https://gaana\\.com/",
+      "type": "app"
     },
     {
       "name": "Goodpods",
@@ -78,7 +135,8 @@
       "examples": [
         "https://www.goodpods.com",
         "https://goodpods.com"
-      ]
+      ],
+      "type": "app"
     },
     {
       "name": "Google Podcasts",
@@ -92,14 +150,31 @@
       "pattern": "^https\\://make\\.headliner\\.app/",
       "examples": [
         "https://make.headliner.app/"
-      ]
+      ],
+      "type": "app"
     },
     {
       "name": "iHeartRadio",
       "pattern": "^https://www\\.iheart\\.com/",
       "examples": [
         "https://www.iheart.com/"
+      ],
+      "type": "app"
+    },
+    {
+      "name": "Jam",
+      "pattern": "://www\\.jam\\.ai/",
+      "examples": [
+        "https://www.jam.ai/"
       ]
+    },
+    {
+      "name": "JustCast",
+      "pattern": "://[^./]+\\.justcast\\.com/",
+      "examples": [
+        "https://widget.justcast.com/"
+      ],
+      "type": "host"
     },
     {
       "name": "Kajabi",
@@ -107,14 +182,16 @@
       "examples": [
         "https://melisa-liberman.mykajabi.com/",
         "https://creativityfound.mykajabi.com/"
-      ]
+      ],
+      "type": "host"
     },
     {
       "name": "LinkedIn",
       "pattern": "^https://www\\.linkedin\\.com/",
       "examples": [
         "https://www.linkedin.com/"
-      ]
+      ],
+      "type": "app"
     },
     {
       "name": "Listen Notes",
@@ -124,18 +201,27 @@
       ]
     },
     {
+      "name": "Megaphone",
+      "pattern": "://[^./]+\\.megaphone\\.fm/",
+      "examples": [
+        "https://playlist.megaphone.fm/"
+      ]
+    },
+    {
       "name": "Mixcloud",
       "pattern": "^https://www\\.mixcloud\\.com/",
       "examples": [
         "https://www.mixcloud.com/"
-      ]
+      ],
+      "type": "app"
     },
     {
       "name": "Overcast",
       "pattern": "^https://overcast\\.fm/",
       "examples": [
         "https://overcast.fm/"
-      ]
+      ],
+      "type": "app"
     },
     {
       "name": "Pandora",
@@ -145,15 +231,18 @@
         "https://www.pandora.com/",
         "https://ce.pandora.com/?model=xbox&vendor=html5&type=GAME_CONSOLE&modelYear=2016&badge=vijjq3knevpj6d22nbljgn3736accrkg7k5e2dxnjju7oeetewqq&emulating=true&platform=xbox",
         "https://tv.pandora.com/?model=WebOS&vendor=lge&type=HTML5&modelYear=2017&badge=lhb63apclwxs76eo3omyv2pqka5rhhgbb7bxhhziis3yivafnfoq"
-      ]
+      ],
+      "type": "app"
     },
     {
       "name": "Parler",
-      "pattern": "^https://(www\\.)?parler\\.com",
+      "pattern": "^https://(www\\.|app\\.)?parler\\.com",
       "examples": [
         "https://parler.com/",
-        "https://www.parler.com/"
-      ]
+        "https://www.parler.com/",
+        "https://app.parler.com/"
+      ],
+      "type": "parler"
     },
     {
       "name": "Player FM",
@@ -161,30 +250,36 @@
       "examples": [
         "https://player.fm/",
         "https://es.player.fm/"
-      ]
+      ],
+      "type": "app"
     },
     {
       "name": "Pocket Casts",
-      "pattern": "^https://play\\.pocketcasts\\.com/",
+      "pattern": "://play\\.pocketcasts\\.com/|://pca\\.st/",
       "examples": [
         "https://play.pocketcasts.com/",
         "https://play.pocketcasts.com/web/podcasts/8d728390-249c-0131-73be-723c91aeae46",
-        "https://play.pocketcasts.com/web/new-releases"
-      ]
+        "https://play.pocketcasts.com/web/new-releases",
+        "https://pca.st/"
+      ],
+      "type": "app"
     },
     {
       "name": "Podbay",
-      "pattern": "^https://podbay\\.fm/",
+      "pattern": "^https?://(old\\.)?podbay\\.fm/",
       "examples": [
-        "https://podbay.fm/"
-      ]
+        "https://podbay.fm/",
+        "http://old.podbay.fm/"
+      ],
+      "type": "app"
     },
     {
       "name": "Podbean",
       "pattern": "^https://www\\.podbean\\.com/",
       "examples": [
         "https://www.podbean.com/"
-      ]
+      ],
+      "type": "host"
     },
     {
       "name": "Podcast Addict",
@@ -194,7 +289,8 @@
         "https://podcastaddict.com",
         "https://podcastaddict.com/",
         "https://podcastaddict.com/podcast/3050361"
-      ]
+      ],
+      "type": "app"
     },
     {
       "name": "Podcast Index",
@@ -209,20 +305,31 @@
       "pattern": "^https://podcast\\.app/",
       "examples": [
         "https://podcast.app/"
-      ]
+      ],
+      "type": "app"
     },
     {
       "name": "Podchaser",
       "pattern": "https://www\\.podchaser\\.com/",
       "examples": [
         "https://www.podchaser.com/something"
-      ]
+      ],
+      "type": "app"
     },
     {
       "name": "Podfriend",
-      "pattern": "^https://web\\.podfriend\\.com/",
+      "pattern": "://[^./]+\\.podfriend\\.com/",
       "examples": [
-        "https://web.podfriend.com/"
+        "https://web.podfriend.com/",
+        "https://widget.podfriend.com/" 
+      ],
+      "type": "app"
+    },
+    {
+      "name": "PodLink",
+      "pattern": "//pod\\.link/",
+      "examples": [
+        "https://pod.link/"
       ]
     },
     {
@@ -230,7 +337,8 @@
       "pattern": "podplay\\.com",
       "examples": [
         "https://www.podplay.com/"
-      ]
+      ],
+      "type": "app"
     },
     {
       "name": "Podtail",
@@ -240,15 +348,33 @@
       ]
     },
     {
+      "name": "Podverse",
+      "pattern": "://podverse\\.fm/",
+      "examples": [
+        "https://podverse.fm/",
+        "https://podverse.fm/livestreams"
+      ],
+      "type": "app"
+    },
+    {
+      "name": "Podvine",
+      "pattern": "://podvine\\.com/",
+      "examples": [
+        "https://podvine.com/"
+      ]
+    },
+    {
       "name": "Podyssey",
-      "pattern": "^https://podyssey\\.fm/"
+      "pattern": "^https://podyssey\\.fm/",
+      "type": "app"
     },
     {
       "name": "RadioPublic",
       "pattern": "^https://radiopublic\\.com/",
       "examples": [
         "https://radiopublic.com/"
-      ]
+      ],
+      "type": "app"
     },
     {
       "name": "Spotify",
@@ -257,7 +383,8 @@
         "https://open.spotify.com/show/3vhBp6pPJEYgGfOXGU8ogu",
         "https://open.spotify.com/",
         "https://api-partner.spotify.com/"
-      ]
+      ],
+      "type": "app"
     },
     {
       "name": "Stitcher",
@@ -266,21 +393,33 @@
         "https://app.stitcher.com/",
         "https://www.stitcher.com/podcast/mile-marker-181/e/57173832?autoplay=true",
         "https://classic.stitcher.com/"
-      ]
+      ],
+      "type": "app"
+    },
+    {
+      "name": "Transistor Web Player",
+      "pattern": "://([^./]+\\.)?transistor\\.fm/",
+      "examples": [
+        "https://asdf.transistor.fm/",
+        "https://share.transistor.fm/"
+      ],
+      "type": "host"
     },
     {
       "name": "TuneIn",
       "pattern": "^https://tunein\\.com/",
       "examples": [
         "https://tunein.com/"
-      ]
+      ],
+      "type": "app"
     },
     {
       "name": "Wix",
       "pattern": "^https://podcasts\\.wixapps\\.net",
       "examples": [
         "https://podcasts.wixapps.net/"
-      ]
+      ],
+      "type": "host"
     }
   ]
 }

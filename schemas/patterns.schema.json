@@ -53,7 +53,7 @@
           },
           "type": {
             "type": "string",
-            "description": "Optional subtype for this entry, depends on the type of the containing entry file (e.g. \"mobile\" in the 'devices' file)."
+            "description": "Optional subtype for this entry, depends on the type of the containing entry file (e.g. \"mobile\" in the 'devices' file, or \"app\" in the 'referrers' file)."
           }
         }
       }
