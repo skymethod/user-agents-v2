@@ -6,8 +6,11 @@
   "type": "object",
   "properties": {
     "comments": {
+      "type": "array",
       "description": "Usage notes about this file.",
-      "type": "string"
+      "items": {
+        "type": "string"
+      }
     },
     "entries": {
       "type": "array",

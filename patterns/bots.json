@@ -1,5 +1,7 @@
 {
-  "comments": "Look for User-Agent matches in this file order: 'bots', 'apps', 'libraries', 'browsers', and return the first entry matched, processing each entry in order in which they appear in the file.",
+  "comments": [
+    "Look for User-Agent matches in this file order: 'bots', 'apps', 'libraries', 'browsers', and return the first entry matched, processing each entry in order in which they appear in the file."
+  ],
   "$schema": "https://raw.githubusercontent.com/skymethod/user-agents-v2/master/schemas/patterns.schema.json",
   "entries": [
     {
