@@ -27,13 +27,13 @@ _(Optional)_ If `type` is `browser` and you also have the HTTP [`Referer`](https
 This collection is an evolution of the original [OPAWG User agent list](https://github.com/opawg/user-agents), refactored in some ways and overlaid with ideas from the excellent [Buzzsprout Podcast Agents](https://github.com/buzzsprout/podcast-agent) Ruby gem.
 
 Some of the goals of this collection:
- - **Data files instead of code**: This is not an NPM package or dependent on any specific programming environment or platform, the patterns files are in standard JSON format, with a shared [JSON schema](/schemas/patterns.schema.json) (automatic type-checking and code-assist in IDEs). There is no code outside of the `.github` folder, which runs the automated tests on every change.
+ - **Data files instead of code**: This is not an NPM package or dependent on any specific programming environment or platform, the patterns files are in standard JSON format, with a shared [JSON schema](/schemas/patterns.schema.json) (automatic type-checking and code-assist in IDEs). There is no code outside of the [`.github/workflows`](/.github/workflows) folder, which runs the automated tests on every change.
  - **Deterministic**: Given a User-Agent, everyone should end up with the same unique result (0 or 1 entry), regardless of programming language or environment.
  - **Fast and compatible**: Keep to basic regular expression patterns, avoid features such as lookaheads that are expensive or unavailable in certain environments.
  - **Comprehensive**: Goal is to match the vast majority of current podcast user-agents in the wild.
  - **Multi-dimensional**: While basic entity matching is deterministic, optional breakdowns by device and device category are separated out into a separate file - making the patterns simpler, and focusing on attributes useful for standard podcast stats reporting.
  - **Web-aware**: Optionally identify known web-based apps and other players using the Referer header, given that web-based apps cannot set a custom User-Agent.
- - **Testable**: Examples are included attached to the entries themselves, automated checks are run against the patterns after every push and pull request, to ensure quality going forward.
+ - **Testable**: Examples are included attached to the entries themselves, [automated checks](/.github/workflows/patterns_test.ts) are run against the patterns after every push and pull request, to ensure quality going forward.
  - **Easy to contribute**: Help make this collection better by adding examples to an existing file, or adding new entries.  Sanity checks will run automatically on any pending pull requests.
 
 ## Evolution
