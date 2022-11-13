@@ -130,8 +130,7 @@
         "AlexaMediaPlayer/vizzini.locked.38.0 (Linux;Android 5.1.1) ExoPlayerLib/1.5.9",
         "AlexaService/2.2.303087.0 (Linux;Android 9) ExoPlayerLib/2.8.4",
         "Alexa Mobile Voice/2.2.2768.0 (Linux;Android 7.0) ExoPlayerLib/2.2.0",
-        "Echo/1.0(MRM)",
-        "Echo/1.0(APNG)"
+        "Echo/1.0(MRM)"
       ]
     },
     {
@@ -1624,8 +1623,7 @@
         "Himalaya/2.4.41 (iPhone; iOS 14.0.1; Scale/3.00; CFNetwork; iPhone9,4)",
         "Himalaya/2.4.42 (iPhone; iOS 14.2; Scale/2.00; CFNetwork; iPhone8,1)",
         "Himalaya/2.2.7 Android/25 (A577VL)",
-        "Himalaya_test/55 CFNetwork/894 Darwin/17.4.0",
-        "Himalaya/2.2.7 Android/25 (A577VL)"
+        "Himalaya_test/55 CFNetwork/894 Darwin/17.4.0"
       ]
     },
     {
