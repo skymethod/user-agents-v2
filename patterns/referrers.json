@@ -147,7 +147,8 @@
       "pattern": "^https://podcasts\\.google\\.com/",
       "examples": [
         "https://podcasts.google.com/"
-      ]
+      ],
+      "category": "app"
     },
     {
       "name": "Headliner",
@@ -170,7 +171,8 @@
       "pattern": "://www\\.jam\\.ai/",
       "examples": [
         "https://www.jam.ai/"
-      ]
+      ],
+      "category": "app"
     },
     {
       "name": "JustCast",
@@ -209,7 +211,8 @@
       "pattern": "://[^./]+\\.megaphone\\.fm/",
       "examples": [
         "https://playlist.megaphone.fm/"
-      ]
+      ],
+      "category": "host"
     },
     {
       "name": "Mixcloud",
@@ -246,7 +249,7 @@
         "https://www.parler.com/",
         "https://app.parler.com/"
       ],
-      "category": "parler"
+      "category": "app"
     },
     {
       "name": "Player FM",
@@ -334,7 +337,8 @@
       "pattern": "//pod\\.link/",
       "examples": [
         "https://pod.link/"
-      ]
+      ],
+      "category": "app"
     },
     {
       "name": "Podplay",
@@ -365,7 +369,8 @@
       "pattern": "://podvine\\.com/",
       "examples": [
         "https://podvine.com/"
-      ]
+      ],
+      "category": "host"
     },
     {
       "name": "Podyssey",
