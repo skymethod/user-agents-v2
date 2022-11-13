@@ -225,7 +225,7 @@
     },
     {
       "name": "AntennaPod",
-      "pattern": "(^AntennaPod/|^de.danoeh.antennapod/|antenna/.*CFNetwork)",
+      "pattern": "(^AntennaPod/|^de\\.danoeh\\.antennapod/|antenna/.*CFNetwork)",
       "urls": [
         "https://github.com/AntennaPod/AntennaPod"
       ],
@@ -347,7 +347,7 @@
     },
     {
       "name": "Audible",
-      "pattern": "(^com.audible.playersdk.player|^Audible,|^Audible.*Darwin)"
+      "pattern": "(^com\\.audible\\.playersdk\\.player|^Audible,|^Audible.*Darwin)"
     },
     {
       "name": "Audio",
@@ -1592,7 +1592,7 @@
     },
     {
       "name": "HermesPod",
-      "pattern": "hermespod.com/",
+      "pattern": "hermespod\\.com/",
       "description": "HermesPod is the easiest way to subscribe, download and listen to podcasts. It's a Windows app.",
       "urls": [
         "http://hermespod.com/"
@@ -1858,7 +1858,7 @@
     },
     {
       "name": "JioSaavn",
-      "pattern": "(^com.jio.media.jiobeats|^com.saavn.android|^[sS]aavn)",
+      "pattern": "(^com\\.jio\\.media\\.jiobeats|^com\\.saavn\\.android|^[sS]aavn)",
       "description": "A music streaming and podcast app from India. Earn Your Happy!",
       "urls": [
         "https://www.jiosaavn.com/"
@@ -1871,7 +1871,7 @@
     },
     {
       "name": "JRiver Media Center",
-      "pattern": "J. River Internet Reader",
+      "pattern": "J\\. River Internet Reader",
       "urls": [
         "https://www.jriver.com/"
       ],
@@ -2619,7 +2619,7 @@
     },
     {
       "name": "Podyssey",
-      "pattern": "Podyssey App|com.toysinboxes.Echo|fm.podyssey.podcasts|^Podyssey",
+      "pattern": "Podyssey App|com\\.toysinboxes\\.Echo|fm\\.podyssey\\.podcasts|^Podyssey",
       "description": "Podyssey is a community for people that love podcasts. It's like Goodreads, but for podcasts.",
       "urls": [
         "https://podyssey.fm"
@@ -2977,7 +2977,7 @@
     },
     {
       "name": "The Podcast App",
-      "pattern": "(^ThePodcastApp|iOS.*The Podcast App/|com.evolve.podcast/)",
+      "pattern": "(^ThePodcastApp|iOS.*The Podcast App/|com\\.evolve\\.podcast/)",
       "examples": [
         "ThePodcastApp/6.23.0 (iPhone; iOS 15.6.1; ) player (build 6272; +https://podcast.app/)",
         "ThePodcastApp/6.28.1 (iPhone; iOS 16.0.2; ) player (build 6391; +https://podcast.app/)",

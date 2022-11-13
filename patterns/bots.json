@@ -102,7 +102,7 @@
     },
     {
       "name": "Archive.org",
-      "pattern": "archive.org_bot",
+      "pattern": "archive\\.org_bot",
       "description": "The Internet Archive is a nonprofit digital library that preserves web data and makes it available for research purposes through the Wayback Machine.",
       "urls": [
         "https://archive.org/details/archive.org_bot"
@@ -127,7 +127,7 @@
     },
     {
       "name": "AudioWave feed parser",
-      "pattern": "^AudioWaveBot/1.0",
+      "pattern": "^AudioWaveBot/1\\.0",
       "urls": [
         "https://audiowave.io"
       ],
@@ -165,7 +165,7 @@
     },
     {
       "name": "British Library",
-      "pattern": "^bl.uk_ldfc_bot",
+      "pattern": "^bl\\.uk_ldfc_bot",
       "description": "British Library's legal deposit web crawler",
       "urls": [
         "http://www.bl.uk/aboutus/legaldeposit/websites/websites/faqswebmaster/index.html"
@@ -183,7 +183,7 @@
     },
     {
       "name": "Castopod",
-      "pattern": "Castopod/1.0",
+      "pattern": "Castopod/1\\.0",
       "examples": [
         "Castopod/1.0"
       ]
@@ -508,7 +508,7 @@
     },
     {
       "name": "Overcast feed parser",
-      "pattern": "^Overcast/1.0 Podcast Sync",
+      "pattern": "^Overcast/1\\.0 Podcast Sync",
       "comments": "Marco Arment says: when a new episode is detected, the servers fetch a copy of it to seed these values with an initial set of data to make the privacy screen more accurate.",
       "examples": [
         "Overcast/1.0 Podcast Sync"
@@ -729,7 +729,7 @@
     },
     {
       "name": "Slack Bot",
-      "pattern": "^Slackbot 1.0",
+      "pattern": "^Slackbot 1\\.0",
       "examples": [
         "Slackbot 1.0 ( https://api.slack.com/robots)"
       ]
@@ -740,7 +740,7 @@
     },
     {
       "name": "Spotify cache service",
-      "pattern": "^Spotify/1.0$",
+      "pattern": "^Spotify/1\\.0$",
       "comments": "This useragent, currently simply Spotify/1.0, is used when retrieving the RSS and audio for Spotify's catalogue. It isn't used for passthru.",
       "examples": [
         "Spotify/1.0"
