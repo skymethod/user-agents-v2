@@ -1409,14 +1409,6 @@
       ]
     },
     {
-      "name": "Go Http Client",
-      "pattern": "^Go-http-client",
-      "comments": "This has been seen being used by a TuneIn client, and may be within WinAMP code.",
-      "examples": [
-        "Go-http-client/2.0"
-      ]
-    },
-    {
       "name": "Godster",
       "pattern": "^Godster/",
       "examples": [

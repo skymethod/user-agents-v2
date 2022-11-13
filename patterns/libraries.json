@@ -83,6 +83,17 @@
       ]
     },
     {
+      "name": "Go Http Client",
+      "pattern": "^Go-http-client",
+      "comments": "Default user-agent for Go programs",
+      "examples": [
+        "Go-http-client/2.0"
+      ],
+      "urls": [
+        "https://pkg.go.dev/net/http"
+      ]
+    },
+    {
       "name": "Got (node)",
       "pattern": "^got(/| \\()",
       "examples": [
