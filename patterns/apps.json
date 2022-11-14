@@ -235,6 +235,16 @@
       ]
     },
     {
+      "name": "Anybox",
+      "pattern": "^Anybox/",
+      "examples": [
+        "Anybox/55 CFNetwork/1399.4 Darwin/22.1.0"
+      ],
+      "urls": [
+        "https://anybox.app/"
+      ]
+    },
+    {
       "name": "Anytime Podcast Player",
       "pattern": "^Anytime/.*amugofjava",
       "examples": [
@@ -285,7 +295,7 @@
     },
     {
       "name": "Apple Podcasts",
-      "pattern": "^Podcasts/.*|^Balados/|^Podcasti/|^Podcastit/|^Podcasturi/|^Podcasty/|^Podcast\u2019ler/|^Podkaster/|^Podcaster/.*\\(.*\\)|^Podcastok/|^\u041f\u043e\u0434\u043a\u0430\u0441\u0442\u0438/|^\u041f\u043e\u0434\u043a\u0430\u0441\u0442\u044b/|^\u05e4\u05d5\u05d3\u05e7\u05d0\u05e1\u05d8\u05d9\u05dd/|^\u0627\u0644\u0628\u0648\u062f\u0643\u0627\u0633\u062a/|^\u092a\u0949\u0921\u0915\u093e\u0938\u094d\u091f/|^\u0e1e\u0e47\u0e2d\u0e14\u0e04\u0e32\u0e2a\u0e17\u0e4c/|^\u64ad\u5ba2/|^\ud31f\uce90\uc2a4\ud2b8/|\u30dd\u30c3\u30c9\u30ad\u30e3\u30b9\u30c8/|^%D8%A7%D9%84%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA/|^podcast/ |^%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D1%8B/|^%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D0%B8/|^Podcastok/|^%D7%A4%D7%95%D7%93%D7%A7%D7%90%D7%A1%D7%98%D7%99%D7%9D/|^%ED%8C%9F%EC%BA%90%EC%8A%A4%ED%8A%B8/|^%D8%A7%D9%95%D8%B3%D9%85%D8%B9%D9%84%D9%8A/|^Podcaster/\\d|^%E6%92%AD%E5%AE%A2/|^%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88/|^Podcast/",
+      "pattern": "^Podcasts/.*|^Balados/|^Podcasti/|^Podcastit/|^Podcasturi/|^Podcasty/|^Podcast\u2019ler/|^Podcast%E2%80%99ler/|^Podkaster/|^Podcaster/.*\\(.*\\)|^Podcastok/|^\u041f\u043e\u0434\u043a\u0430\u0441\u0442\u0438/|^\u041f\u043e\u0434\u043a\u0430\u0441\u0442\u044b/|^\u05e4\u05d5\u05d3\u05e7\u05d0\u05e1\u05d8\u05d9\u05dd/|^\u0627\u0644\u0628\u0648\u062f\u0643\u0627\u0633\u062a/|^\u092a\u0949\u0921\u0915\u093e\u0938\u094d\u091f/|^\u0e1e\u0e47\u0e2d\u0e14\u0e04\u0e32\u0e2a\u0e17\u0e4c/|^\u64ad\u5ba2/|^\ud31f\uce90\uc2a4\ud2b8/|\u30dd\u30c3\u30c9\u30ad\u30e3\u30b9\u30c8/|^%D8%A7%D9%84%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA/|^%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D1%8B/|^%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D0%B8/|^Podcastok/|^%D7%A4%D7%95%D7%93%D7%A7%D7%90%D7%A1%D7%98%D7%99%D7%9D/|^%ED%8C%9F%EC%BA%90%EC%8A%A4%ED%8A%B8/|^%D8%A7%D9%95%D8%B3%D9%85%D8%B9%D9%84%D9%8A/|^Podcaster/\\d|^%E6%92%AD%E5%AE%A2/|^%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88/|^Podcast/",
       "description": "The Apple Podcasts app.",
       "comments": "This could be on iOS, iPadOS or macOS. Used when downloading podcasts (not progressive downloads), with support for the following languages: Arabic, Chinese, Finnish, French, English, Hebrew, Hindi, Hungarian, Korean, Polish, Romanian, Russian, Serbian, Slovenian, Swedish, Thai, Turkish.",
       "examples": [
@@ -298,7 +308,6 @@
         "Подкасти/1520.39 CFNetwork/1206 Darwin/20.1.0",
         "%D8%A7%D9%84%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA/1410.25.1 CFNetwork/1107.1 Darwin/19.0.0",
         "Подкасты/1520.39 CFNetwork/1206 Darwin/20.1.0",
-        "podcast/ CFNetwork/1107 Darwin/19.0.0",
         "%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D1%8B/1410.25.1 CFNetwork/1107.1 Darwin/19.0.0",
         "%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D0%B8/1410.25.1 CFNetwork/1107.1 Darwin/19.0.0",
         "Podcastok/1410.25.1 CFNetwork/1107.1 Darwin/19.0.0",
@@ -316,7 +325,15 @@
         "Podcastit/1660.5 CFNetwork/1335.0.3 Darwin/21.6.0",
         "Podkaster/1710.17 CFNetwork/1399 Darwin/22.1.0",
         "Balados/1660.5 CFNetwork/1335.0.3 Darwin/21.6.0",
-        "Podcast/1660.5 CFNetwork/1335.0.3 Darwin/21.6.0"
+        "Podcast/1660.5 CFNetwork/1335.0.3 Darwin/21.6.0",
+        "Podcast%E2%80%99ler/1710.17 CFNetwork/1399 Darwin/22.1.0"
+      ]
+    },
+    {
+      "name": "Apple Reminders",
+      "pattern": "^Recordatorios/",
+      "examples": [
+        "Recordatorios/2466 CFNetwork/1329 Darwin/21.3.0"
       ]
     },
     {
@@ -595,6 +612,13 @@
     {
       "name": "Breaker",
       "pattern": "^Breaker/"
+    },
+    {
+      "name": "Breez",
+      "pattern": "^breez/",
+      "examples": [
+        "breez/5585.1 CFNetwork/1402 Darwin/22.2.0"
+      ]
     },
     {
       "name": "BrewApp",
@@ -1907,6 +1931,17 @@
       ]
     },
     {
+      "name": "Kasts",
+      "pattern": "^Kasts/",
+      "examples": [
+        "Kasts/22.09; Syndication"
+      ],
+      "urls": [
+        "https://apps.kde.org/kasts/"
+      ],
+      "description": "Kasts is a convergent podcast application that looks good on desktop and mobile."
+    },
+    {
       "name": "Kids Listen",
       "pattern": "^Kids(%20| )Listen/",
       "examples": [
@@ -2032,10 +2067,11 @@
     },
     {
       "name": "Listen",
-      "pattern": "^Listen( App)?/",
+      "pattern": "^Listen(( |%20)App)?/",
       "examples": [
         "Listen/1 CFNetwork/1107.1 Darwin/19.0.0",
-        "Listen App/84 CFNetwork/1240.0.4 Darwin/20.6.0"
+        "Listen App/84 CFNetwork/1240.0.4 Darwin/20.6.0",
+        "Listen%20App/121 CFNetwork/1399 Darwin/22.1.0"
       ]
     },
     {
@@ -2216,12 +2252,13 @@
     },
     {
       "name": "MyTuner",
-      "pattern": "^myTuner Radio app/|^myTuner%20Radio%20app/|^mytuner_podcasts_androidplayer/|^MyTuner-",
+      "pattern": "^myTuner Radio app/|^myTuner%20Radio%20app/|^mytuner_podcasts_androidplayer/|^MyTuner-|^myTuner$",
       "examples": [
         "myTuner Radio app/11 CFNetwork/978.0.7 Darwin/18.7.0",
         "myTuner%20Radio%20app/11 CFNetwork/978.0.7 Darwin/18.7.0",
         "mytuner_podcasts_androidplayer/1.0.0 (Linux;Android 6.0) ExoPlayerLib/2.8.4",
-        "MyTuner-ExoPlayerAdapter"
+        "MyTuner-ExoPlayerAdapter",
+        "myTuner"
       ]
     },
     {
@@ -2538,10 +2575,13 @@
     },
     {
       "name": "Podopolo",
-      "pattern": "^Podopolo",
+      "pattern": "^Podopolo|^podopolo/",
       "description": "Listen with passion - connect with purpose",
       "urls": [
         "https://podopolo.com/"
+      ],
+      "examples": [
+        "podopolo/36 CFNetwork/1312 Darwin/20.4.0"
       ]
     },
     {
@@ -2828,6 +2868,16 @@
       ]
     },
     {
+      "name": "SoundWaves",
+      "pattern": "^SoundWaves-\\d",
+      "examples": [
+        "SoundWaves-0.160.2"
+      ],
+      "urls": [
+        "https://play.google.com/store/apps/details?id=com.dne.wavesapp&hl=en_US&gl=US"
+      ]
+    },
+    {
       "name": "Sportbladet Android app",
       "pattern": "Android Sportbladet Hermes/",
       "description": "Sportbladet Android app",
@@ -2845,12 +2895,14 @@
     },
     {
       "name": "Spotify",
-      "pattern": "^Spotify/.+Linux|Macintosh.+Spotify/|^Spotify/.+OSX|Windows.+Spotify/|^Spotify/.+Win32|^Spotify/.+Android|^Spotify/.+iOS|^spotify_|^Spotify-Lite",
+      "pattern": "^Spotify/.+Linux|Macintosh.+Spotify/|^Spotify/.+OSX|Windows.+Spotify/|^Spotify/.+Win32|^Spotify/.+Android|^Spotify/.+iOS|^Spotify/.+Polestar|^Spotify/.+Volvo|^spotify_|^Spotify-Lite",
       "examples": [
         "Spotify/8.7.10 iOS/15.3.1 (iPhone13,2)",
         "spotify_other-mobile",
         "spotify_android-tablet",
-        "Spotify-Lite: Spotify-Lite/0.13.48.96 Android/22 (SM-G531H)"
+        "Spotify-Lite: Spotify-Lite/0.13.48.96 Android/22 (SM-G531H)",
+        "Spotify/4.3.2.0 Polestar/30 (Polestar)",
+        "Spotify/4.3.2.0 Volvo/30 (Volvo)"
       ]
     },
     {
@@ -2969,12 +3021,14 @@
     },
     {
       "name": "The Podcast App",
-      "pattern": "(^ThePodcastApp|iOS.*The Podcast App/|com\\.evolve\\.podcast/)",
+      "pattern": "^ThePodcastApp|iOS.*The Podcast App/|com\\.evolve\\.podcast/|^podcast/\\d* ",
       "examples": [
         "ThePodcastApp/6.23.0 (iPhone; iOS 15.6.1; ) player (build 6272; +https://podcast.app/)",
         "ThePodcastApp/6.28.1 (iPhone; iOS 16.0.2; ) player (build 6391; +https://podcast.app/)",
         "podcast/2358 iOS/Version 13.5.1 (Build 017F80) The Podcast App/3.22.1",
-        "com.evolve.podcast/3.22.1 (iPhone; ) (build 2358, iOS 13.5.1)"
+        "com.evolve.podcast/3.22.1 (iPhone; ) (build 2358, iOS 13.5.1)",
+        "podcast/ CFNetwork/1107 Darwin/19.0.0",
+        "podcast/878 CFNetwork/1335.0.3 Darwin/21.6.0"
       ]
     },
     {

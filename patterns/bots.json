@@ -285,7 +285,7 @@
     },
     {
       "name": "Facebook Bot",
-      "pattern": "FacebookBot|facebookexternalhit/?|^podcastbot$|Facebot|facebookexternalua|^facebookplatform/",
+      "pattern": "FacebookBot|f?acebookexternalhit/?|^podcastbot$|Facebot|facebookexternalua|^facebookplatform/",
       "urls": [
         "https://www.facebook.com/externalhit_uatext.php"
       ],
@@ -296,7 +296,8 @@
         "facebookexternalhit",
         "Facebot",
         "facebookexternalua",
-        "facebookplatform/1.0 (+http://developers.facebook.com)"
+        "facebookplatform/1.0 (+http://developers.facebook.com)",
+        "acebookexternalhit/1.0 (+http://www.facebook.com/externalhit_uatext.php)"
       ]
     },
     {
@@ -372,13 +373,14 @@
     },
     {
       "name": "Internet Archive",
-      "pattern": "Archive-It;",
+      "pattern": "Archive-It;|web\\.archive\\.org",
       "description": "Archive-It is a web archiving service that allows institutions to build and preserve collections of born digital content saving this content for future generations.",
       "urls": [
         "https://archive-it.org/files/site-owners-special.html"
       ],
       "examples": [
-        "Mozilla/5.0 (compatible; special_archiver; Archive-It; http://archive-it.org/files/site-owners-special.html)"
+        "Mozilla/5.0 (compatible; special_archiver; Archive-It; http://archive-it.org/files/site-owners-special.html)",
+        "ia_archiver-web.archive.org"
       ]
     },
     {
@@ -441,12 +443,13 @@
     },
     {
       "name": "Microsoft Bingbot",
-      "pattern": "(BingPreview/|adidxbot/|bingbot/)",
+      "pattern": "(BingPreview/|adidxbot/|[bB]ingbot/)",
       "urls": [
         "https://www.bing.com/webmaster/help/which-crawlers-does-bing-use-8c184ec0"
       ],
       "examples": [
-        "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534 (KHTML, like Gecko) BingPreview/1.0b"
+        "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534 (KHTML, like Gecko) BingPreview/1.0b",
+        "Mozilla/5.0 (compatible; Bingbot/2.0; +http://www.bing.com/bingbot.htm)"
       ]
     },
     {
@@ -486,6 +489,13 @@
       ],
       "examples": [
         "Mozilla/5.0 (compatible; Neevabot/1.0; https://neeva.com/neevabot)"
+      ]
+    },
+    {
+      "name": "Netcraft Survey Agent",
+      "pattern": " NetcraftSurveyAgent/",
+      "examples": [
+        "Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)"
       ]
     },
     {
@@ -672,6 +682,14 @@
       ]
     },
     {
+      "name": "PostRank Bot",
+      "pattern": "^PostRank/",
+      "examples": [
+        "PostRank/2.0 (postrank.com; 1 subscribers)"
+      ],
+      "comments": "Acquired by Google, https://en.wikipedia.org/wiki/PostRank"
+    },
+    {
       "name": "python-requests",
       "pattern": "python-requests"
     },
@@ -684,6 +702,13 @@
       ],
       "examples": [
         "RedCircle"
+      ]
+    },
+    {
+      "name": "Ridder Bot",
+      "pattern": " RidderBot/",
+      "examples": [
+        "Mozilla/5.0 (compatible; RidderBot/1.0; bot@ridder.co)"
       ]
     },
     {
@@ -707,6 +732,20 @@
       "examples": [
         "Mozilla/5.0 (compatible; Mechanize/2.7.4)",
         "WWW-Mechanize/1.72"
+      ]
+    },
+    {
+      "name": "Screaming Frog SEO Spider",
+      "pattern": "^Screaming Frog ",
+      "examples": [
+        "Screaming Frog SEO Spider/5.1"
+      ]
+    },
+    {
+      "name": "SearchAtlas.com SEO Crawler",
+      "pattern": "^SearchAtlas.*Crawler",
+      "examples": [
+        "SearchAtlas.com SEO Crawler"
       ]
     },
     {
@@ -735,6 +774,13 @@
       ]
     },
     {
+      "name": "Snapchat Bot",
+      "pattern": "://developers\\.snap\\.com/robots",
+      "examples": [
+        "Snap URL Preview Service; bot; snapchat; https://developers.snap.com/robots"
+      ]
+    },
+    {
       "name": "SoundOn Bot",
       "pattern": "^SoundOn/[\\d.]+\\s+\\(bot"
     },
@@ -760,6 +806,13 @@
     {
       "name": "Trendsmap Resolver",
       "pattern": "TrendsmapResolver/"
+    },
+    {
+      "name": "Twingly Bot",
+      "pattern": "Twingly Recon;",
+      "examples": [
+        "Mozilla/5.0 (compatible; Twingly Recon; twingly.com)"
+      ]
     },
     {
       "name": "Twitterbot",

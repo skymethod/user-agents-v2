@@ -68,6 +68,14 @@
       "comments": "Default for the Dart programming language (Flutter uses Dart)"
     },
     {
+      "name": "Deno",
+      "pattern": "^Deno/",
+      "examples": [
+        "Deno/1.26.1"
+      ],
+      "comments": "Default for the Deno JavaScript/TypeScript runtime"
+    },
+    {
       "name": "ffmpeg",
       "pattern": "^Lavf/",
       "comments": "ffmpeg is a library used within TuneIn, VLC, ffmpeg and other programs. This is the default useragent for the ffmpeg library. Since it's a library, not an app by itself, we don't add its name here."
