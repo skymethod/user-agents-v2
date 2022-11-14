@@ -56,6 +56,14 @@
       "category": "host"
     },
     {
+      "name": "Castamatic",
+      "pattern": "://castamatic\\.com/",
+      "examples": [
+        "https://castamatic.com/"
+      ],
+      "category": "app"
+    },
+    {
       "name": "CastBox",
       "pattern": "^https://castbox\\.fm/",
       "examples": [
@@ -121,6 +129,15 @@
       "category": "app"
     },
     {
+      "name": "Feedspot",
+      "pattern": "://[^./]+\\.feedspot\\.com/",
+      "examples": [
+        "https://www.feedspot.com/",
+        "https://blog.feedspot.com/"
+      ],
+      "category": "app"
+    },
+    {
       "name": "Fountain",
       "pattern": "://fountain\\.fm/",
       "examples": [
@@ -167,6 +184,14 @@
       "category": "app"
     },
     {
+      "name": "Inoreader",
+      "pattern": "://www\\.inoreader\\.com/",
+      "examples": [
+        "https://www.inoreader.com/"
+      ],
+      "category": "app"
+    },
+    {
       "name": "Jam",
       "pattern": "://www\\.jam\\.ai/",
       "examples": [
@@ -205,6 +230,14 @@
       "examples": [
         "https://www.listennotes.com/"
       ]
+    },
+    {
+      "name": "Luminary",
+      "pattern": "://luminarypodcasts\\.com/",
+      "examples": [
+        "https://luminarypodcasts.com/"
+      ],
+      "category": "app"
     },
     {
       "name": "Megaphone",
@@ -248,6 +281,14 @@
         "https://parler.com/",
         "https://www.parler.com/",
         "https://app.parler.com/"
+      ],
+      "category": "app"
+    },
+    {
+      "name": "Playapod",
+      "pattern": "://playapod\\.com/",
+      "examples": [
+        "https://playapod.com/"
       ],
       "category": "app"
     },
@@ -333,6 +374,14 @@
       "category": "app"
     },
     {
+      "name": "PodGrabber",
+      "pattern": "://podgrabber\\.com/",
+      "examples": [
+        "https://podgrabber.com/"
+      ],
+      "category": "app"
+    },
+    {
       "name": "PodLink",
       "pattern": "//pod\\.link/",
       "examples": [
@@ -379,11 +428,20 @@
     },
     {
       "name": "RadioPublic",
-      "pattern": "^https://radiopublic\\.com/",
+      "pattern": "://(embed\\.)?radiopublic\\.com/",
       "examples": [
-        "https://radiopublic.com/"
+        "https://radiopublic.com/",
+        "https://embed.radiopublic.com/"
       ],
       "category": "app"
+    },
+    {
+      "name": "Simplecast",
+      "pattern": "://player\\.simplecast\\.com/",
+      "examples": [
+        "https://player.simplecast.com/"
+      ],
+      "category": "host"
     },
     {
       "name": "Spotify",
