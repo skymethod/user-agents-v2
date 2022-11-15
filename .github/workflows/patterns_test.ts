@@ -12,7 +12,7 @@ Deno.test({
 
         // first, read and perform basic parsing/validation on each entries file
         for (const type of [ 'apps', 'bots', 'browsers', 'devices', 'libraries', 'referrers' ] as Type[]) {
-            const filepath = join(fromFileUrl(import.meta.url), `../../../patterns/${type}.json`);
+            const filepath = join(fromFileUrl(import.meta.url), `../../../src/${type}.json`);
             const txt = await Deno.readTextFile(filepath);
             const obj = JSON.parse(txt);
             if (!Array.isArray(obj.entries)) fail(`Bad top-level object: missing 'entries' array.`);
