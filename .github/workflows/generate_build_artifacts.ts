@@ -4,17 +4,23 @@ import { join, fromFileUrl } from 'https://deno.land/std@0.163.0/path/mod.ts';
 const src = join(fromFileUrl(import.meta.url), `../../../src`);
 const build = join(fromFileUrl(import.meta.url), `../../../build`);
 
+let changed = 0;
 for (const type of [ 'apps', 'bots', 'browsers', 'devices', 'libraries', 'referrers' ]) {
     const obj = JSON.parse(await Deno.readTextFile(join(src, `${type}.json`)));
 
     // compute a version with only the core attributes needed in production
     const runtimeContents = JSON.stringify(computeRuntimeContents(obj), undefined, 2);
-    await writeTextFileIfChanged(join(build, `${type}.runtime.json`), runtimeContents);
+    if (await writeTextFileIfChanged(join(build, `${type}.runtime.json`), runtimeContents)) {
+        changed++;
+    }
 
     // compute a version with only the examples
     const examplesContents = JSON.stringify(computeExamplesContents(obj), undefined, 2);
-    await writeTextFileIfChanged(join(build, `${type}.examples.json`), examplesContents);
+    if (await writeTextFileIfChanged(join(build, `${type}.examples.json`), examplesContents)) {
+        changed++;
+    }
 }
+console.log(`Changed ${changed} file(s)`);
 
 function computeRuntimeContents(obj: any) {
     const entries = obj.entries.map((v: unknown) => {
@@ -32,12 +38,12 @@ function computeExamplesContents(obj: any) {
     return { entries };
 }
 
-async function writeTextFileIfChanged(path: string, contents: string) {
+async function writeTextFileIfChanged(path: string, contents: string): Promise<boolean> {
     const oldContents = await tryReadTextFile(path);
-    if (oldContents !== contents) {
-        console.log(`Updating ${path}`);
-        await Deno.writeTextFile(path, contents);
-    }
+    if (oldContents === contents) return false;
+    console.log(`Updating ${path}`);
+    await Deno.writeTextFile(path, contents);
+    return true;
 }
 
 async function tryReadTextFile(path: string): Promise<string | undefined> {

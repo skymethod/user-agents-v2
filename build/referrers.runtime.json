@@ -11,11 +11,6 @@
       "category": "app"
     },
     {
-      "name": "Audible",
-      "pattern": "://www\\.audible(\\.com|\\.co\\.uk)/",
-      "category": "app"
-    },
-    {
       "name": "Buzzsprout Web Player",
       "pattern": "://[^./]+\\.buzzsprout\\.com/",
       "category": "host"
