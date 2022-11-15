@@ -2,7 +2,7 @@ name: Automated tests and build
 on: [push, pull_request]
 
 permissions:
-  contents: read|write
+  contents: write
 
 jobs:
   test-all-patterns:
