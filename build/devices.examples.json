@@ -1,41 +1,11 @@
 {
   "entries": [
     {
-      "name": "Apple HomePod"
-    },
-    {
-      "name": "Apple iPad"
-    },
-    {
-      "name": "Apple TV"
-    },
-    {
       "name": "Apple iPhone",
       "examples": [
         "Fountain/0.5.3 ios https://www.fountain.fm",
         "Anytime/1.1 b64 (phone;ios Version 15.6.1 (Build 19G82)) https://github.com/amugofjava/anytime_podcast_player"
       ]
-    },
-    {
-      "name": "Apple Watch"
-    },
-    {
-      "name": "Apple iPod"
-    },
-    {
-      "name": "Apple Computer"
-    },
-    {
-      "name": "Google Home"
-    },
-    {
-      "name": "Google Chromebook"
-    },
-    {
-      "name": "Android Tablet"
-    },
-    {
-      "name": "Other Smart TV"
     },
     {
       "name": "Android Phone",
@@ -44,24 +14,6 @@
         "GSA/13.39.12.26.arm",
         "sp-agent"
       ]
-    },
-    {
-      "name": "Windows Computer"
-    },
-    {
-      "name": "Amazon Smart Speaker"
-    },
-    {
-      "name": "Other Smart Speaker"
-    },
-    {
-      "name": "Other Computer"
-    },
-    {
-      "name": "Other Tablet"
-    },
-    {
-      "name": "Other Watch"
     },
     {
       "name": "Other Mobile Device",

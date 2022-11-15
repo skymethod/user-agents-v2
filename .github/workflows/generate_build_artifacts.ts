@@ -31,9 +31,9 @@ function computeRuntimeContents(obj: any) {
 }
 
 function computeExamplesContents(obj: any) {
-    const entries = obj.entries.map((v: unknown) => {
+    const entries = obj.entries.flatMap((v: unknown) => {
         const { name, examples } = v as Record<string, unknown>;
-        return { name, examples };
+        return examples ? [ { name, examples } ] : [];
     });
     return { entries };
 }

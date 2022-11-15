@@ -21,16 +21,10 @@
       ]
     },
     {
-      "name": "Alexa Flash Briefing cache"
-    },
-    {
       "name": "AlignaBot",
       "examples": [
         "Alignabot 1.0 (https://www.alignable.com/)"
       ]
-    },
-    {
-      "name": "Amazon Music Podcasts Bot"
     },
     {
       "name": "Anchor Importer",
@@ -56,12 +50,6 @@
         "atc/1.0 watchOS/7.1 model/Watch5,4 hwp/t8006 build/18R590 (6; dt:202)",
         "(null)/(null) watchOS/5.0.1 model/Watch3,3 hwp/t8004 build/16R381 (6; dt:155)"
       ]
-    },
-    {
-      "name": "Apple Podcasts automated checks"
-    },
-    {
-      "name": "Applebot"
     },
     {
       "name": "Archive.org",
@@ -94,9 +82,6 @@
       ]
     },
     {
-      "name": "Babbar"
-    },
-    {
       "name": "Baidu",
       "examples": [
         "Baidu-YunGuanCe-SLABot(ce.baidu.com)"
@@ -127,12 +112,6 @@
       ]
     },
     {
-      "name": "Chartable"
-    },
-    {
-      "name": "Clark-Crawler, unknown"
-    },
-    {
       "name": "Critical Mention",
       "examples": [
         "Podcast-CriticalMention/1.0"
@@ -153,25 +132,16 @@
       ]
     },
     {
-      "name": "Datagnion Bot"
-    },
-    {
       "name": "Daum",
       "examples": [
         "Mozilla/5.0 (compatible; Daum/4.1; +http://cs.daum.net/faq/15/4118.html?faqId=28966)"
       ]
     },
     {
-      "name": "Deezer Podcasters"
-    },
-    {
       "name": "Digg",
       "examples": [
         "Digg Mozilla/5.0 (Digg/1.0; support@digg.com)"
       ]
-    },
-    {
-      "name": "dorada"
     },
     {
       "name": "DotBot",
@@ -223,19 +193,10 @@
       ]
     },
     {
-      "name": "Fyyd"
-    },
-    {
       "name": "Goodpods Bot",
       "examples": [
         "Goodpods/2.2"
       ]
-    },
-    {
-      "name": "Google AdsBot"
-    },
-    {
-      "name": "Google Podcasts Manager"
     },
     {
       "name": "Googlebot",
@@ -271,9 +232,6 @@
       ]
     },
     {
-      "name": "l'Institut national de l'audiovisuel"
-    },
-    {
       "name": "Libsyn",
       "examples": [
         "Libsyn4-Download"
@@ -284,9 +242,6 @@
       "examples": [
         "LWP::Simple/6.34 libwww-perl/6.34"
       ]
-    },
-    {
-      "name": "Livelap Crawler"
     },
     {
       "name": "LTX71",
@@ -336,9 +291,6 @@
       ]
     },
     {
-      "name": "MSN Bot"
-    },
-    {
       "name": "Neevabot",
       "examples": [
         "Mozilla/5.0 (compatible; Neevabot/1.0; https://neeva.com/neevabot)"
@@ -357,9 +309,6 @@
       ]
     },
     {
-      "name": "OkDownload"
-    },
-    {
       "name": "OP3 Fetcher",
       "examples": [
         "op3-fetcher/1.0 (https://op3.dev)"
@@ -372,9 +321,6 @@
       ]
     },
     {
-      "name": "Pandora RSS crawler"
-    },
-    {
       "name": "PaperLi",
       "examples": [
         "Mozilla/5.0 (compatible; PaperLiBot/2.1; https://support.paper.li/entries/20023257-what-is-paper-li)"
@@ -385,9 +331,6 @@
       "examples": [
         "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot; https://aspiegel.com/petalbot)"
       ]
-    },
-    {
-      "name": "Pingdom"
     },
     {
       "name": "PlayerFM Podcast Sync",
@@ -406,9 +349,6 @@
       "examples": [
         "Podcastindex.org/v0.3.3 (Aggrivate)"
       ]
-    },
-    {
-      "name": "PodCloud"
     },
     {
       "name": "Podcorn",
@@ -441,19 +381,10 @@
       ]
     },
     {
-      "name": "Podnews"
-    },
-    {
-      "name": "Podnods Bot"
-    },
-    {
       "name": "Podscribe",
       "examples": [
         "Adswizz-podscribe/1.0"
       ]
-    },
-    {
-      "name": "Podverse Feed Parser"
     },
     {
       "name": "PodvineBot",
@@ -466,9 +397,6 @@
       "examples": [
         "PostRank/2.0 (postrank.com; 1 subscribers)"
       ]
-    },
-    {
-      "name": "python-requests"
     },
     {
       "name": "RedCircle",
@@ -487,9 +415,6 @@
       "examples": [
         "RSStT/2.2.1 RSS Reader"
       ]
-    },
-    {
-      "name": "RSSRadio"
     },
     {
       "name": "Ruby Mechanize",
@@ -536,16 +461,10 @@
       ]
     },
     {
-      "name": "SoundOn Bot"
-    },
-    {
       "name": "Spotify cache service",
       "examples": [
         "Spotify/1.0"
       ]
-    },
-    {
-      "name": "Stitcher Bot"
     },
     {
       "name": "Timpi search crawler",
@@ -554,19 +473,10 @@
       ]
     },
     {
-      "name": "Trendsmap Resolver"
-    },
-    {
       "name": "Twingly Bot",
       "examples": [
         "Mozilla/5.0 (compatible; Twingly Recon; twingly.com)"
       ]
-    },
-    {
-      "name": "Twitterbot"
-    },
-    {
-      "name": "Typhoeus"
     },
     {
       "name": "UCast",
@@ -587,9 +497,6 @@
       ]
     },
     {
-      "name": "Wget"
-    },
-    {
       "name": "weborama",
       "examples": [
         "weborama-fetcher (+http://www.weborama.com)"
@@ -602,9 +509,6 @@
       ]
     },
     {
-      "name": "WordPress"
-    },
-    {
       "name": "YaCy",
       "examples": [
         "yacybot (/global; amd64 Linux 5.9.8-zen1-1-zen; java 1.8.0_265; Europe/de) http://yacy.net/bot.html"
@@ -615,9 +519,6 @@
       "examples": [
         "Crawler Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)"
       ]
-    },
-    {
-      "name": "YandexBot"
     }
   ]
 }

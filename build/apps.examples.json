@@ -290,9 +290,6 @@
       ]
     },
     {
-      "name": "Audible"
-    },
-    {
       "name": "Audio",
       "examples": [
         "Audio/105 CFNetwork/548.1.4 Darwin/11.0.0"
@@ -371,9 +368,6 @@
       "examples": [
         "Barabbas Road Church/4.9.5 CFNetwork/1098.7 Darwin/19.0.0"
       ]
-    },
-    {
-      "name": "BashPodder"
     },
     {
       "name": "BBC iPlayer Radio",
@@ -475,16 +469,10 @@
       ]
     },
     {
-      "name": "Bose SoundTouch"
-    },
-    {
       "name": "bPod",
       "examples": [
         "bPod"
       ]
-    },
-    {
-      "name": "Breaker"
     },
     {
       "name": "Breez",
@@ -686,9 +674,6 @@
       "examples": [
         "Client/16042 CFNetwork/1098.7 Darwin/19.0.0"
       ]
-    },
-    {
-      "name": "Clementine Music Player"
     },
     {
       "name": "Club",
@@ -1067,9 +1052,6 @@
       ]
     },
     {
-      "name": "Flash"
-    },
-    {
       "name": "folkebladet.no",
       "examples": [
         "folkebladet.no/252 CFNetwork/811.5.4 Darwin/16.7.0"
@@ -1196,12 +1178,6 @@
         "GoodReader4/100 CFNetwork/711.3.18 Darwin/14.0.0",
         "GoodReaderIPad/3.20.0 CFNetwork/711.3.18 Darwin/14.0.0"
       ]
-    },
-    {
-      "name": "Google Assistant"
-    },
-    {
-      "name": "Google Nest Hub"
     },
     {
       "name": "Google Podcasts",
@@ -1628,9 +1604,6 @@
       ]
     },
     {
-      "name": "LG Player"
-    },
-    {
       "name": "LifeEssentials",
       "examples": [
         "LifeEssentials/1.0 CFNetwork/758.0.2 Darwin/15.0.0",
@@ -1666,9 +1639,6 @@
       ]
     },
     {
-      "name": "Listen5"
-    },
-    {
       "name": "Livio Radio",
       "examples": [
         "Livio Radio/2.6.2 CFNetwork/609.1.4 Darwin/13.0.0"
@@ -1688,9 +1658,6 @@
       ]
     },
     {
-      "name": "Majelan"
-    },
-    {
       "name": "MaxTubePro",
       "examples": [
         "MaxTubePro/1.5 CFNetwork/711.1.16 Darwin/14.0.0"
@@ -1701,9 +1668,6 @@
       "examples": [
         "Meadowbrook Church/4.10.2 CFNetwork/978.0.7 Darwin/18.6.0"
       ]
-    },
-    {
-      "name": "MediaMonkey"
     },
     {
       "name": "Mediatap",
@@ -1911,9 +1875,6 @@
       ]
     },
     {
-      "name": "Podcast Guru"
-    },
-    {
       "name": "Podcast Addict",
       "examples": [
         "PodcastAddict/v2 - Dalvik/2.1.0 (Linux; U; Android 9; SM-N950U Build/PPR1.180610.011)",
@@ -1952,9 +1913,6 @@
       "examples": [
         "Podclipper/4.2 (miguelDSP.Podclipper; build:4; iOS 13.1.3) Alamofire/4.7.3"
       ]
-    },
-    {
-      "name": "Podcoin"
     },
     {
       "name": "PodCruncher",
@@ -1997,12 +1955,6 @@
       ]
     },
     {
-      "name": "Podkicker Pro"
-    },
-    {
-      "name": "PodLink"
-    },
-    {
       "name": "PodLP podcast app for KaiOS",
       "examples": [
         "Mozilla/5.0 (Mobile; LYF/F271i/LYF_F271i-000-01-20-101019; Android; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5 PodLP/1.3.2.0"
@@ -2027,9 +1979,6 @@
       "examples": [
         "PodNL/47 CFNetwork/1107.1 Darwin/19.0.0"
       ]
-    },
-    {
-      "name": "Podnods"
     },
     {
       "name": "Podopolo",
@@ -2110,9 +2059,6 @@
       ]
     },
     {
-      "name": "RadioPlayer"
-    },
-    {
       "name": "RadioPublic",
       "examples": [
         "RadioPublic/android-2.2",
@@ -2179,16 +2125,10 @@
       ]
     },
     {
-      "name": "Shadow"
-    },
-    {
       "name": "SiriusXM",
       "examples": [
         "SiriusXM/1608138304 CFNetwork/1206 Darwin/20.1.0"
       ]
-    },
-    {
-      "name": "Slack"
     },
     {
       "name": "Snipd",
@@ -2213,9 +2153,6 @@
       "examples": [
         "Simple Podcast Player/1.8 (Linux;Android 12) ExoPlayerLib/2.10.1"
       ]
-    },
-    {
-      "name": "Sonos"
     },
     {
       "name": "SoundOn",
@@ -2256,9 +2193,6 @@
       ]
     },
     {
-      "name": "Spreaker"
-    },
-    {
       "name": "Stavanger Aftenblad Android app",
       "examples": [
         "Android SA Hermes/1000094692 _app_"
@@ -2286,9 +2220,6 @@
       ]
     },
     {
-      "name": "Storiyoh"
-    },
-    {
       "name": "StoryShots",
       "examples": [
         "StoryShots/1.9.72 (Linux;Android 9) ExoPlayerLib/2.11.4"
@@ -2299,9 +2230,6 @@
       "examples": [
         "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS Strilen Hermes/90.0.0 _app_"
       ]
-    },
-    {
-      "name": "Subcast"
     },
     {
       "name": "Svenska Dagbladet iOS app",
@@ -2449,9 +2377,6 @@
       ]
     },
     {
-      "name": "Vodacast"
-    },
-    {
       "name": "Voiz FM",
       "examples": [
         "Voiz FM/10.1.0 (Linux;Android 8.1.0) ExoPlayerLib/2.9.3"
@@ -2504,16 +2429,10 @@
       ]
     },
     {
-      "name": "Yapa"
-    },
-    {
       "name": "Zune",
       "examples": [
         "Zune/4.8"
       ]
-    },
-    {
-      "name": "小宇宙"
     },
     {
       "name": "KAIOS podcast app",

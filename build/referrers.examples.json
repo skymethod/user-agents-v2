@@ -110,9 +110,6 @@
       ]
     },
     {
-      "name": "Gaana"
-    },
-    {
       "name": "Goodpods",
       "examples": [
         "https://www.goodpods.com",
@@ -320,9 +317,6 @@
       "examples": [
         "https://podvine.com/"
       ]
-    },
-    {
-      "name": "Podyssey"
     },
     {
       "name": "RadioPublic",

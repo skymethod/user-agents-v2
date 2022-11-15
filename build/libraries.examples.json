@@ -1,9 +1,6 @@
 {
   "entries": [
     {
-      "name": "AndroidDownloadManager"
-    },
-    {
       "name": "Apache HttpClient",
       "examples": [
         "Apache-HttpClient/4.5.3-SNAPSHOT (Java/1.8.0_73)"
@@ -52,9 +49,6 @@
       ]
     },
     {
-      "name": "ffmpeg"
-    },
-    {
       "name": "FileDownloader (Android)",
       "examples": [
         "FileDownloader/1.7.7"
@@ -77,9 +71,6 @@
       "examples": [
         "amarok/2.8.0 (Phonon/4.7.80; Phonon-GStreamer/4.7.80)"
       ]
-    },
-    {
-      "name": "gvfs"
     },
     {
       "name": "KaiOS Downloader",
@@ -119,19 +110,10 @@
       ]
     },
     {
-      "name": "Request (node)"
-    },
-    {
-      "name": "ruby"
-    },
-    {
       "name": "Safari View Service (SFSafariViewController)",
       "examples": [
         "SafariViewService/8614.1.25.0.31 CFNetwork/1390 Darwin/22.0.0"
       ]
-    },
-    {
-      "name": "stagefright"
     },
     {
       "name": "urllib (python)",
